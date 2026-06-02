@@ -1,17 +1,28 @@
 "use client"
 
-import { useState } from "react"
-import { useTranslations, useLocale } from "next-intl"
+import { useState, useRef, useEffect } from "react"
+import { useTranslations } from "next-intl"
 import { Link, usePathname } from "@/i18n/routing"
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import { Menu, X, ChevronDown, Phone, MessageCircle } from "lucide-react"
 import { cn } from "@/lib/utils"
 import LanguageSwitcher from "./LanguageSwitcher"
 
-const navLinks = [
+const navLinks: { href: string; label: string; dropdown?: { href: string; label: string }[] }[] = [
   { href: "/", label: "home" },
-  { href: "/about", label: "about" },
+  {
+    href: "/about",
+    label: "about",
+    dropdown: [
+      { href: "/about#what-we-collect", label: "whatWeCollect" },
+      { href: "/about#who-we-serve", label: "whoWeServe" },
+      { href: "/about#why-us", label: "whyUs" },
+    ],
+  },
   { href: "/services", label: "services" },
+  { href: "/testimonials", label: "testimonials" },
+  { href: "/service-area", label: "serviceArea" },
+  { href: "/prices", label: "prices" },
   { href: "/contact", label: "contact" },
 ]
 
@@ -19,10 +30,27 @@ export default function Navbar() {
   const t = useTranslations("common.nav")
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
+  const [dropdownOpen, setDropdownOpen] = useState(false)
+  const dropdownRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false)
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
+  }, [])
 
   const isActive = (href: string) => {
     if (href === "/") return pathname === "/"
     return pathname.startsWith(href)
+  }
+
+  const closeNav = () => {
+    setOpen(false)
+    setDropdownOpen(false)
   }
 
   return (
@@ -35,29 +63,73 @@ export default function Navbar() {
           <span className="text-lg font-bold text-white">Red Dot Metal</span>
         </Link>
 
-        <div className="hidden items-center gap-6 md:flex">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={cn(
-                "text-sm font-medium transition-colors hover:text-amber-400",
-                isActive(link.href) ? "text-amber-400" : "text-gray-300"
-              )}
+        <div className="hidden items-center gap-1 lg:flex">
+          {navLinks.map((link) =>
+            link.dropdown ? (
+              <div key={link.href} className="relative" ref={dropdownRef}>
+                <button
+                  onClick={() => setDropdownOpen(!dropdownOpen)}
+                  className={cn(
+                    "flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-amber-400",
+                    isActive(link.href) ? "text-amber-400" : "text-gray-300"
+                  )}
+                >
+                  {t(link.label)}
+                  <ChevronDown className={cn("h-3 w-3 transition-transform", dropdownOpen && "rotate-180")} />
+                </button>
+                {dropdownOpen && (
+                  <div className="absolute left-0 top-full mt-1 w-56 rounded-xl border border-white/10 bg-[#1e293b] p-2 shadow-xl backdrop-blur">
+                    {link.dropdown.map((sub) => (
+                      <Link
+                        key={sub.href}
+                        href={sub.href}
+                        onClick={closeNav}
+                        className="block rounded-lg px-3 py-2 text-sm text-gray-300 transition-colors hover:bg-white/5 hover:text-amber-400"
+                      >
+                        {t(sub.label)}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={cn(
+                  "rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-amber-400",
+                  isActive(link.href) ? "text-amber-400" : "text-gray-300"
+                )}
+              >
+                {t(link.label)}
+              </Link>
+            )
+          )}
+          <div className="ml-2 flex items-center gap-2">
+            <LanguageSwitcher />
+            <a href="tel:+6567891234" className="inline-flex items-center gap-1.5 rounded-md border border-white/10 px-3 py-1.5 text-sm text-gray-300 transition-colors hover:border-amber-500/50 hover:text-amber-400">
+              <Phone className="h-3.5 w-3.5" />
+              <span className="hidden xl:inline">Call</span>
+            </a>
+            <a
+              href="https://wa.me/6567891234"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-md border border-white/10 px-3 py-1.5 text-sm text-gray-300 transition-colors hover:border-green-500/50 hover:text-green-400"
             >
-              {t(link.label)}
+              <MessageCircle className="h-3.5 w-3.5" />
+              <span className="hidden xl:inline">WhatsApp</span>
+            </a>
+            <Link href="/quote">
+              <Button className="bg-amber-500 text-[#0f172a] hover:bg-amber-400 font-semibold">
+                {t("quote")}
+              </Button>
             </Link>
-          ))}
-          <LanguageSwitcher />
-          <Link href="/quote">
-            <Button className="bg-amber-500 text-[#0f172a] hover:bg-amber-400 font-semibold">
-              {t("quote")}
-            </Button>
-          </Link>
+          </div>
         </div>
 
         <button
-          className="md:hidden text-white"
+          className="lg:hidden text-white"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -66,25 +138,52 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="border-t border-white/10 bg-[#0f172a] md:hidden">
-          <div className="space-y-2 px-4 py-4">
+        <div className="border-t border-white/10 bg-[#0f172a] lg:hidden">
+          <div className="space-y-1 px-4 py-4">
             {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className={cn(
-                  "block rounded px-3 py-2 text-sm font-medium transition-colors hover:bg-white/5 hover:text-amber-400",
-                  isActive(link.href) ? "text-amber-400" : "text-gray-300"
-                )}
-              >
-                {t(link.label)}
-              </Link>
+              <div key={link.href}>
+                <Link
+                  href={link.href}
+                  onClick={closeNav}
+                  className={cn(
+                    "block rounded px-3 py-2 text-sm font-medium transition-colors hover:bg-white/5 hover:text-amber-400",
+                    isActive(link.href) ? "text-amber-400" : "text-gray-300"
+                  )}
+                >
+                  {t(link.label)}
+                </Link>
+                {link.dropdown?.map((sub) => (
+                  <Link
+                    key={sub.href}
+                    href={sub.href}
+                    onClick={closeNav}
+                    className="block rounded px-6 py-1.5 text-sm text-gray-400 transition-colors hover:text-amber-400"
+                  >
+                    {t(sub.label)}
+                  </Link>
+                ))}
+              </div>
             ))}
+            <div className="flex items-center gap-3 pt-3">
+              <a
+                href="tel:+6567891234"
+                className="flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-sm text-gray-300 hover:border-amber-500/50"
+              >
+                <Phone className="h-4 w-4" /> Call
+              </a>
+              <a
+                href="https://wa.me/6567891234"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-sm text-gray-300 hover:border-green-500/50"
+              >
+                <MessageCircle className="h-4 w-4" /> WhatsApp
+              </a>
+            </div>
             <div className="pt-2">
               <LanguageSwitcher />
             </div>
-            <Link href="/quote" onClick={() => setOpen(false)} className="block pt-2">
+            <Link href="/quote" onClick={closeNav} className="block pt-2">
               <Button className="w-full bg-amber-500 text-[#0f172a] hover:bg-amber-400 font-semibold">
                 {t("quote")}
               </Button>

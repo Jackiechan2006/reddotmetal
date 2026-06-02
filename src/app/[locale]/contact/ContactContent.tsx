@@ -2,13 +2,15 @@
 
 import { useTranslations } from "next-intl"
 import { motion } from "framer-motion"
-import { Phone, Mail, MapPin, Clock } from "lucide-react"
+import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react"
 import AnimatedSection from "@/components/AnimatedSection"
 import ContactForm from "@/components/ContactForm"
+import ContactInstructions from "@/components/ContactInstructions"
 
 const contactDetails = [
-  { icon: Phone, label: "Phone", valueKey: "details.phone" },
-  { icon: Mail, label: "Email", valueKey: "details.email" },
+  { icon: Phone, label: "Phone", valueKey: "details.phone", href: "tel:+6567891234" },
+  { icon: MessageCircle, label: "WhatsApp", valueKey: "details.whatsapp", href: "https://wa.me/6567891234" },
+  { icon: Mail, label: "Email", valueKey: "details.email", href: "mailto:hello@reddotmetal.com" },
   { icon: MapPin, label: "Address", valueKey: "details.address" },
   { icon: Clock, label: "Hours", valueKey: "details.hours" },
 ]
@@ -41,16 +43,20 @@ export default function ContactContent() {
 
       <AnimatedSection className="py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-12 lg:grid-cols-3">
-            <div className="lg:col-span-2">
-              <ContactForm />
+          <div className="grid gap-12 lg:grid-cols-5">
+            <div className="lg:col-span-3 space-y-8">
+              <ContactInstructions />
+              <div className="rounded-xl border border-white/10 bg-[#1e293b] p-6">
+                <h3 className="mb-4 text-lg font-bold text-white">Send us a Message</h3>
+                <ContactForm />
+              </div>
             </div>
-            <div className="space-y-6">
+            <div className="lg:col-span-2 space-y-6">
               {contactDetails.map((detail) => {
                 const Icon = detail.icon
                 const value = t(detail.valueKey)
-                return (
-                  <div key={detail.label} className="flex items-start gap-3">
+                const content = (
+                  <div className="flex items-start gap-3">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-500/10 text-amber-400">
                       <Icon className="h-5 w-5" />
                     </div>
@@ -60,15 +66,30 @@ export default function ContactContent() {
                     </div>
                   </div>
                 )
-              })}
-              <div className="mt-8 overflow-hidden rounded-xl border border-white/10">
-                <div className="flex h-48 items-center justify-center bg-[#1e293b] text-gray-500">
-                  <div className="text-center">
-                    <MapPin className="mx-auto mb-2 h-8 w-8" />
-                    <p className="text-sm">Map placeholder</p>
-                    <p className="text-xs">15 Gul Way, Singapore 629198</p>
+                if (detail.href) {
+                  return (
+                    <a key={detail.label} href={detail.href} target={detail.href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer" className="block rounded-xl border border-white/10 bg-[#1e293b] p-4 transition-colors hover:border-amber-500/50">
+                      {content}
+                    </a>
+                  )
+                }
+                return (
+                  <div key={detail.label} className="rounded-xl border border-white/10 bg-[#1e293b] p-4">
+                    {content}
                   </div>
-                </div>
+                )
+              })}
+              <div className="overflow-hidden rounded-xl border border-white/10">
+                <iframe
+                  src="https://www.google.com/maps?q=15+Gul+Way+Singapore+629198&output=embed"
+                  width="100%"
+                  height="220"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Red Dot Metal Location"
+                />
               </div>
             </div>
           </div>

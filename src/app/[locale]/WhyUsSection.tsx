@@ -2,10 +2,10 @@
 
 import { useTranslations } from "next-intl"
 import { motion } from "framer-motion"
-import { Clock, ShieldCheck, BadgeCheck, Sparkles } from "lucide-react"
+import { Clock, Sparkles, BadgeCheck, Banknote, ShieldCheck, Map } from "lucide-react"
 import AnimatedSection from "@/components/AnimatedSection"
 
-const featureIcons = [Clock, Sparkles, BadgeCheck, ShieldCheck]
+const featureIcons = [Clock, Sparkles, Banknote, BadgeCheck, ShieldCheck, Map]
 
 export default function WhyUsSection() {
   const t = useTranslations("home.whyUs")
@@ -18,9 +18,9 @@ export default function WhyUsSection() {
           <h2 className="text-3xl font-bold text-white sm:text-4xl">{t("title")}</h2>
           <p className="mt-4 text-gray-400">{t("subtitle")}</p>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature, i) => {
-            const Icon = featureIcons[i]
+            const Icon = featureIcons[i] || Sparkles
             return (
               <motion.div
                 key={feature.title}

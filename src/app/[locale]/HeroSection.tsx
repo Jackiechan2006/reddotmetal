@@ -4,7 +4,11 @@ import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Truck } from "lucide-react"
+import {
+  ArrowRight,
+  MessageCircle,
+  Phone,
+} from "lucide-react"
 
 export default function HeroSection() {
   const t = useTranslations("home.hero")
@@ -20,7 +24,6 @@ export default function HeroSection() {
           transition={{ duration: 0.8 }}
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-1.5 text-sm text-amber-400">
-            <Truck className="h-4 w-4" />
             Singapore's #1 B2B Scrap Metal Partner
           </div>
         </motion.div>
@@ -46,17 +49,42 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
         >
-          <Link href="/quote">
-            <Button size="lg" className="bg-amber-500 text-[#0f172a] hover:bg-amber-400 px-8 font-semibold text-base">
-              {t("ctaPickup")}
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </Link>
-          <Link href="/services">
-            <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 px-8 font-semibold text-base">
-              {t("ctaServices")}
-            </Button>
-          </Link>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link href="/quote">
+              <Button size="lg" className="bg-amber-500 text-[#0f172a] hover:bg-amber-400 px-8 font-semibold text-base">
+                {t("ctaPickup")}
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
+            <Link href="/services">
+              <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 px-8 font-semibold text-base">
+                {t("ctaServices")}
+              </Button>
+            </Link>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="mt-6 flex flex-wrap justify-center gap-3"
+        >
+          <a
+            href="https://wa.me/6567891234"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-green-500/10 px-5 py-2 text-sm font-medium text-green-400 transition-colors hover:bg-green-500/20"
+          >
+            <MessageCircle className="h-4 w-4" />
+            {t("ctaWhatsApp")}
+          </a>
+          <a
+            href="tel:+6567891234"
+            className="inline-flex items-center gap-2 rounded-full bg-amber-500/10 px-5 py-2 text-sm font-medium text-amber-400 transition-colors hover:bg-amber-500/20"
+          >
+            <Phone className="h-4 w-4" />
+            {t("ctaCall")}
+          </a>
         </motion.div>
       </div>
     </section>

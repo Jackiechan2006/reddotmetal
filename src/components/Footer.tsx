@@ -2,13 +2,16 @@
 
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
-import { Phone, Mail, MapPin } from "lucide-react"
+import { Phone, Mail, MapPin, MessageCircle } from "lucide-react"
 import LanguageSwitcher from "./LanguageSwitcher"
 
 const footerLinks = [
   { href: "/", label: "home" },
   { href: "/about", label: "about" },
   { href: "/services", label: "services" },
+  { href: "/testimonials", label: "testimonials" },
+  { href: "/service-area", label: "serviceArea" },
+  { href: "/prices", label: "prices" },
   { href: "/contact", label: "contact" },
   { href: "/quote", label: "quote" },
 ]
@@ -28,6 +31,22 @@ export default function Footer() {
               <span className="text-lg font-bold text-white">Red Dot Metal</span>
             </Link>
             <p className="text-sm text-gray-400">{t("footer.description")}</p>
+            <div className="flex gap-3 pt-1">
+              <a
+                href="https://wa.me/6567891234"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-lg bg-green-500/10 text-green-400 transition-colors hover:bg-green-500/20"
+              >
+                <MessageCircle className="h-4 w-4" />
+              </a>
+              <a
+                href="tel:+6567891234"
+                className="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-500/10 text-amber-400 transition-colors hover:bg-amber-500/20"
+              >
+                <Phone className="h-4 w-4" />
+              </a>
+            </div>
             <div className="pt-2">
               <LanguageSwitcher />
             </div>
@@ -60,6 +79,17 @@ export default function Footer() {
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
                 {t("footer.phone")}
               </li>
+              <li>
+                <a
+                  href="https://wa.me/6567891234"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-2 text-sm text-gray-400 transition-colors hover:text-green-400"
+                >
+                  <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
+                  {t("footer.whatsapp")}
+                </a>
+              </li>
               <li className="flex items-start gap-2 text-sm text-gray-400">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
                 {t("footer.email")}
@@ -79,6 +109,13 @@ export default function Footer() {
               <p>Mon–Fri: 8:00 AM – 6:00 PM</p>
               <p>Sat: 8:00 AM – 1:00 PM</p>
               <p className="mt-2">Sun & Public Holidays: Closed</p>
+            </div>
+            <div className="pt-2">
+              <Link href="/admin">
+                <span className="text-xs text-gray-600 transition-colors hover:text-gray-400 cursor-pointer">
+                  Admin Panel
+                </span>
+              </Link>
             </div>
           </div>
         </div>

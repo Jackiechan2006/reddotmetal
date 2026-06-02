@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FloatingActions from "@/components/FloatingActions";
 import "../globals.css";
 
 export async function generateStaticParams() {
@@ -51,6 +52,7 @@ export default async function LocaleLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <FloatingActions />
       </div>
     </NextIntlClientProvider>
   );

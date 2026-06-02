@@ -42,13 +42,13 @@ export default function AboutContent() {
         </div>
       </section>
 
-      <AnimatedSection className="py-16">
+      <AnimatedSection className="py-16" id="what-we-collect">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <p className="text-lg leading-relaxed text-gray-300">{t("overview")}</p>
         </div>
       </AnimatedSection>
 
-      <AnimatedSection className="bg-[#0c1222] py-16" delay={0.1}>
+      <AnimatedSection className="bg-[#0c1222] py-16" delay={0.1} id="who-we-serve">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 md:grid-cols-2">
             <div className="rounded-xl border border-white/10 bg-[#1e293b] p-8">
@@ -63,7 +63,7 @@ export default function AboutContent() {
         </div>
       </AnimatedSection>
 
-      <AnimatedSection className="py-16" delay={0.2}>
+      <AnimatedSection className="py-16" delay={0.2} id="why-us">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="mb-12 text-center text-3xl font-bold text-white">Our Values</h2>
           <div className="grid gap-6 md:grid-cols-3">
