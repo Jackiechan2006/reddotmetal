@@ -1,0 +1,202 @@
+{
+  "home": {
+    "title": "Red Dot Metal | Pengitar Semula & Pedagang Logam Skrap Dipercayai di Singapura",
+    "description": "Red Dot Metal adalah syarikat kitar semula dan perdagangan logam skrap B2B terkemuka di Singapura. Perkhidmatan berpandu, harga telus, berlesen & diperakui.",
+    "hero": {
+      "title": "Perkhidmatan Kitar Semula & Perdagangan Logam Skrap Utama Singapura",
+      "subtitle": "Perkhidmatan pengumpulan, perdagangan, dan kitar semula logam skrap B2B yang boleh dipercayai di seluruh Singapura. Perkhidmatan berpandu. Harga kompetitif. Berlesen sepenuhnya.",
+      "ctaPickup": "Minta Pengambilan",
+      "ctaServices": "Perkhidmatan Kami"
+    },
+    "stats": {
+      "years": "Tahun Pengalaman",
+      "tons": "Tan Dikumpul",
+      "clients": "Pelanggan Dilayan",
+      "pickups": "Pengambilan Hari Sama"
+    },
+    "services": {
+      "title": "Perkhidmatan Kami",
+      "subtitle": "Penyelesaian logam skrap komprehensif untuk perniagaan di seluruh Singapura",
+      "items": [
+        { "title": "Pengumpulan Skrap", "desc": "Perkhidmatan pengumpulan logam skrap tetap dan atas permintaan untuk perniagaan semua saiz." },
+        { "title": "Perdagangan Logam", "desc": "Beli dan jual logam ferus dan bukan ferus pada harga pasaran yang kompetitif." },
+        { "title": "Pengambilan Industri", "desc": "Perkhidmatan pengambilan berat untuk kilang, limbungan kapal, dan tapak pembinaan." },
+        { "title": "Kitar Semula", "desc": "Kitar semula yang bertanggungjawab terhadap alam sekitar yang memenuhi semua piawaian kawal selia." },
+        { "title": "Logam Ferus", "desc": "Pemprosesan dan kitar semula keluli, besi, dan logam ferus lain." },
+        { "title": "Logam Bukan Ferus", "desc": "Tembaga, aluminium, loyang, keluli tahan karat, dan logam bukan ferus lain." }
+      ]
+    },
+    "howItWorks": {
+      "title": "Cara Ia Berfungsi",
+      "subtitle": "Dari permintaan ke pembayaran dalam empat langkah mudah",
+      "steps": [
+        { "title": "Hantar Permintaan", "desc": "Isi borang dalam talian kami atau hubungi kami." },
+        { "title": "Jadual Pengambilan", "desc": "Kami atur pengambilan yang mudah pada hari yang sama atau hari berikutnya." },
+        { "title": "Timbang & Gred", "desc": "Logam skrap anda ditimbang dan digred di kemudahan kami." },
+        { "title": "Dapatkan Bayaran", "desc": "Terima bayaran kompetitif melalui pindahan bank atau cek." }
+      ]
+    },
+    "whyUs": {
+      "title": "Mengapa Pilih Red Dot Metal",
+      "subtitle": "Kami menjadikan kitar semula logam skrap mudah, telus, dan menguntungkan",
+      "features": [
+        { "title": "Perkhidmatan Hari Sama", "desc": "Kami bertindak balas dalam beberapa jam dan mengambil pada hari yang sama." },
+        { "title": "Pengambilan Percuma", "desc": "Tiada yuran tersembunyi. Kami mengumpul logam skrap anda tanpa kos." },
+        { "title": "Harga Telus", "desc": "Kadar pasaran masa nyata dengan pecahan berat dan harga yang jelas." },
+        { "title": "Berlesen & Diperakui", "desc": "Berlesen sepenuhnya oleh NEA. Mematuhi semua peraturan." }
+      ]
+    },
+    "cta": {
+      "title": "Bersedia untuk menukar skrap anda kepada nilai?",
+      "button": "Jadual Pengambilan Hari Ini"
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "subtitle": "Ada soalan? Hubungi pasukan kami."
+    }
+  },
+  "about": {
+    "title": "Tentang Kami | Red Dot Metal",
+    "description": "Ketahui tentang Red Dot Metal — syarikat kitar semula dan perdagangan logam skrap B2B yang dipercayai di Singapura. Misi, nilai, dan pasukan berpengalaman kami.",
+    "hero": {
+      "title": "Tentang Red Dot Metal",
+      "subtitle": "Rakan dipercayai Singapura dalam kitar semula dan perdagangan logam skrap"
+    },
+    "overview": "Red Dot Metal adalah syarikat kitar semula dan perdagangan logam skrap B2B yang berpangkalan di Singapura yang komited untuk menyediakan penyelesaian pengurusan sisa logam yang boleh dipercayai, telus, dan bertanggungjawab terhadap alam sekitar. Dengan pengalaman industri gabungan selama beberapa dekad, kami melayani perniagaan dari bengkel kecil hingga syarikat multinasional.",
+    "mission": "Untuk menjadi rakan logam skrap yang paling dipercayai di Singapura dengan memberikan perkhidmatan yang luar biasa, harga yang adil, dan amalan kitar semula yang mampan.",
+    "vision": "Untuk memimpin peralihan ke arah ekonomi pekeliling di mana setiap keping logam dipulihkan, dikitar semula, dan digunakan semula — mengurangkan sisa dan memulihara sumber untuk generasi akan datang.",
+    "values": [
+      { "title": "Integriti", "desc": "Penimbangan jujur, harga telus, dan amalan perniagaan beretika dalam setiap transaksi." },
+      { "title": "Kebolehpercayaan", "desc": "Pengambilan hari yang sama, pembayaran tepat pada masanya, dan kualiti perkhidmatan yang konsisten." },
+      { "title": "Kelestarian", "desc": "Komitmen terhadap kitar semula yang bertanggungjawab terhadap alam sekitar yang melebihi keperluan kawal selia." }
+    ],
+    "team": "Pasukan kami menggabungkan kepakaran dalam perdagangan logam, logistik, dan pematuhan alam sekitar. Dari kru operasi hingga pasukan pengurusan, setiap ahli komited untuk memberikan standard perkhidmatan tertinggi."
+  },
+  "services": {
+    "title": "Perkhidmatan Kami | Red Dot Metal",
+    "description": "Perkhidmatan kitar semula dan perdagangan logam skrap B2B yang komprehensif di Singapura.",
+    "hero": {
+      "title": "Perkhidmatan Kami",
+      "subtitle": "Penyelesaian logam skrap hujung-ke-hujung untuk perniagaan Singapura"
+    },
+    "items": [
+      { "title": "Pengumpulan Skrap", "desc": "Kami menyediakan perkhidmatan pengumpulan tetap dan atas permintaan untuk perniagaan di seluruh Singapura. Armada lori dan kru terlatih kami mengendalikan segala-galanya dari skrap pejabat hingga sisa industri.", "process": "Hubungi atau tempah dalam talian → Kami sahkan slot masa → Pasukan kami tiba dan memuatkan skrap → Anda mendapat tiket timbangan dan pembayaran" },
+      { "title": "Perdagangan Logam", "desc": "Kami membeli dan menjual pelbagai logam ferus dan bukan ferus pada harga pasaran yang kompetitif.", "process": "Hubungi kami dengan jenis dan volum logam → Kami berikan sebut harga langsung → Setuju harga → Atur penghantaran atau pengambilan → Bayaran dalam 24 jam" },
+      { "title": "Pengambilan Industri", "desc": "Perkhidmatan pengambilan berat untuk kilang, limbungan kapal, tapak pembinaan, dan kemudahan pembuatan.", "process": "Jadual penilaian tapak → Dapatkan sebut harga berdasarkan volum → Kami kerahkan peralatan yang sesuai → Pemuatan dan penyingkiran cekap → Dokumentasi pelupusan sisa" },
+      { "title": "Kitar Semula", "desc": "Kemudahan kami memproses logam skrap melalui pencincangan, penyortiran, dan penapisan untuk menghasilkan bahan kitar semula berkualiti tinggi.", "process": "Skrap tiba di kemudahan kami → Disusun mengikut jenis → Diproses melalui barisan kitar semula → Diperiksa kualiti → Dibekalkan ke kilang dan faundri" },
+      { "title": "Logam Ferus", "desc": "Kami pakar dalam memproses dan memperdagangkan logam ferus termasuk keluli lebur berat, besi skrap, besi tuang, dan keluli struktur.", "process": "Bahan dinilai semasa ketibaan → Digred mengikut piawaian antarabangsa → Diproses dan disediakan → Dihantar ke kilang keluli dan faundri" },
+      { "title": "Logam Bukan Ferus", "desc": "Kami mengendalikan semua logam bukan ferus utama termasuk tembaga, aluminium, loyang, keluli tahan karat, plumbum, dan zink.", "process": "Logam dikenal pasti dan disusun → Bahan cemar dikeluarkan → Diproses mengikut spesifikasi → Dijual kepada penapis dan pengilang" }
+    ],
+    "process": {
+      "title": "Proses Kami",
+      "steps": [
+        { "title": "Hubungi Kami", "desc": "Hubungi melalui telefon, emel, atau borang dalam talian kami" },
+        { "title": "Dapatkan Sebut Harga", "desc": "Kami berikan harga kompetitif berdasarkan jenis dan volum" },
+        { "title": "Jadual Pengambilan", "desc": "Pilih slot masa yang sesuai untuk pengambilan" },
+        { "title": "Timbang & Proses", "desc": "Skrap anda ditimbang, digred, dan diproses" },
+        { "title": "Dapatkan Bayaran", "desc": "Terima bayaran segera melalui kaedah pilihan anda" }
+      ]
+    },
+    "cta": {
+      "title": "Bersedia untuk bermula?",
+      "button": "Minta Sebut Harga"
+    }
+  },
+  "contact": {
+    "title": "Hubungi Kami | Red Dot Metal",
+    "description": "Hubungi Red Dot Metal. Telefon, emel, atau lawati kemudahan kami.",
+    "hero": {
+      "title": "Hubungi Kami",
+      "subtitle": "Kami sedia membantu. Hubungi pasukan kami."
+    },
+    "form": {
+      "name": "Nama",
+      "company": "Syarikat",
+      "email": "Emel",
+      "phone": "Telefon",
+      "metalType": "Jenis Logam",
+      "message": "Mesej",
+      "submit": "Hantar Mesej",
+      "sending": "Menghantar...",
+      "success": "Mesej berjaya dihantar! Kami akan menghubungi anda tidak lama lagi.",
+      "error": "Ada masalah. Sila cuba lagi.",
+      "placeholders": {
+        "name": "Nama anda",
+        "company": "Nama syarikat",
+        "email": "email@contoh.com",
+        "phone": "+65 9123 4567",
+        "message": "Bagaimana kami boleh bantu?"
+      }
+    },
+    "details": {
+      "phone": "+65 6789 1234",
+      "email": "hello@reddotmetal.com",
+      "address": "15 Gul Way, Singapore 629198",
+      "hours": "Isnin–Jumaat: 8:00 PG – 6:00 PTG\nSabtu: 8:00 PG – 1:00 PTG"
+    },
+    "metalOptions": [
+      { "value": "ferrous", "label": "Logam Ferus (Keluli, Besi)" },
+      { "value": "non-ferrous", "label": "Logam Bukan Ferus (Tembaga, Aluminium)" },
+      { "value": "mixed", "label": "Skrap Campuran" },
+      { "value": "industrial", "label": "Sisa Industri" },
+      { "value": "other", "label": "Lain-lain" }
+    ]
+  },
+  "quote": {
+    "title": "Minta Sebut Harga | Red Dot Metal",
+    "description": "Dapatkan sebut harga kompetitif untuk logam skrap anda. Isi borang dan pasukan kami akan bertindak balas dalam beberapa jam.",
+    "hero": {
+      "title": "Minta Sebut Harga",
+      "subtitle": "Isi butiran dan kami akan memberikan harga kompetitif dalam beberapa jam."
+    },
+    "form": {
+      "companyName": "Nama Syarikat",
+      "contactPerson": "Orang Hubungan",
+      "email": "Emel",
+      "phone": "Telefon",
+      "metalType": "Jenis Logam",
+      "estimatedWeight": "Anggaran Berat (kg)",
+      "pickupAddress": "Alamat Pengambilan",
+      "preferredDate": "Tarikh Pengambilan Pilihan",
+      "notes": "Nota Tambahan",
+      "submit": "Hantar Permintaan Sebut Harga",
+      "sending": "Menghantar...",
+      "success": "Permintaan sebut harga dihantar! Kami akan hubungi anda dalam 2 jam.",
+      "error": "Ada masalah. Sila cuba lagi."
+    },
+    "metalOptions": [
+      { "value": "steel", "label": "Keluli" },
+      { "value": "iron", "label": "Besi" },
+      { "value": "copper", "label": "Tembaga" },
+      { "value": "aluminium", "label": "Aluminium" },
+      { "value": "brass", "label": "Loyang" },
+      { "value": "stainless", "label": "Keluli Tahan Karat" },
+      { "value": "lead", "label": "Plumbum" },
+      { "value": "mixed", "label": "Logam Campuran" },
+      { "value": "other", "label": "Lain-lain" }
+    ]
+  },
+  "common": {
+    "nav": {
+      "home": "Laman Utama",
+      "about": "Tentang",
+      "services": "Perkhidmatan",
+      "contact": "Hubungi",
+      "quote": "Minta Sebut Harga"
+    },
+    "footer": {
+      "description": "Rakan B2B yang dipercayai di Singapura untuk kitar semula dan perdagangan logam skrap.",
+      "quickLinks": "Pautan Pantas",
+      "contact": "Hubungi",
+      "copyright": "© 2024 Red Dot Metal. Hak cipta terpelihara.",
+      "phone": "+65 6789 1234",
+      "email": "hello@reddotmetal.com",
+      "address": "15 Gul Way, Singapore 629198"
+    },
+    "language": {
+      "en": "English",
+      "ms": "Bahasa Melayu",
+      "zh": "中文"
+    }
+  }
+}

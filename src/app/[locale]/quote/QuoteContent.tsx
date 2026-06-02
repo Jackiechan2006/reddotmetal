@@ -1,0 +1,40 @@
+"use client"
+
+import { useTranslations } from "next-intl"
+import { motion } from "framer-motion"
+import QuoteForm from "@/components/QuoteForm"
+
+export default function QuoteContent() {
+  const t = useTranslations("quote")
+
+  return (
+    <>
+      <section className="relative py-24">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0f172a] via-[#1a1a2e] to-[#16213e]" />
+        <div className="relative z-10 mx-auto max-w-4xl px-4 text-center">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-4xl font-bold text-white sm:text-5xl"
+          >
+            {t("hero.title")}
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="mt-4 text-lg text-gray-400"
+          >
+            {t("hero.subtitle")}
+          </motion.p>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <QuoteForm />
+        </div>
+      </section>
+    </>
+  )
+}
