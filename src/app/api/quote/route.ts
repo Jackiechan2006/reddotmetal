@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
-import { resend, FROM_EMAIL } from "@/lib/resend";
+import { submitQuoteForm } from "@/lib/resend";
 
 const schema = z.object({
   companyName: z.string().min(1),
@@ -19,25 +19,7 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     const data = schema.parse(body);
 
-    if (resend) {
-      await resend.emails.send({
-        from: FROM_EMAIL,
-        to: FROM_EMAIL,
-        subject: `New Quote Request from ${data.companyName}`,
-        html: `
-          <h2>New Quote Request</h2>
-          <p><strong>Company:</strong> ${data.companyName}</p>
-          <p><strong>Contact Person:</strong> ${data.contactPerson}</p>
-          <p><strong>Email:</strong> ${data.email}</p>
-          <p><strong>Phone:</strong> ${data.phone}</p>
-          <p><strong>Metal Types:</strong> ${data.metalTypes.join(", ")}</p>
-          <p><strong>Estimated Weight:</strong> ${data.estimatedWeight} kg</p>
-          <p><strong>Pickup Address:</strong> ${data.pickupAddress}</p>
-          <p><strong>Preferred Date:</strong> ${data.preferredDate}</p>
-          <p><strong>Notes:</strong> ${data.notes || "N/A"}</p>
-        `,
-      });
-    }
+    await submitQuoteForm(data);
 
     return NextResponse.json({ success: true });
   } catch (error) {

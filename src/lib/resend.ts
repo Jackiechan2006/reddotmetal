@@ -1,7 +1,20 @@
-import { Resend } from "resend";
+const formspreeContactId = process.env.FORMSPREE_CONTACT_ID;
+const formspreeQuoteId = process.env.FORMSPREE_QUOTE_ID;
 
-const resendApiKey = process.env.RESEND_API_KEY;
+export async function submitContactForm(data: any) {
+  if (!formspreeContactId) throw new Error("FORMSPREE_CONTACT_ID not configured");
+  return fetch(`https://formspree.io/f/${formspreeContactId}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
+  });
+}
 
-export const resend = resendApiKey ? new Resend(resendApiKey) : null;
-
-export const FROM_EMAIL = process.env.FROM_EMAIL || "noreply@reddotmetal.com";
+export async function submitQuoteForm(data: any) {
+  if (!formspreeQuoteId) throw new Error("FORMSPREE_QUOTE_ID not configured");
+  return fetch(`https://formspree.io/f/${formspreeQuoteId}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
+  });
+}
