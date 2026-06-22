@@ -50,9 +50,9 @@ export default function ServicesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group rounded-xl border border-white/10 bg-[#1e293b] p-6 transition-all hover:border-amber-500/50 hover:shadow-lg hover:shadow-amber-500/5"
+              className="group rounded-xl border border-white/10 bg-[#1e293b] p-6 transition-all hover:border-orange-500/50 hover:shadow-lg hover:shadow-orange-500/5"
             >
-              <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-lg bg-amber-500/10 text-amber-400 transition-colors group-hover:bg-amber-500/20">
+              <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-lg bg-orange-500/10 text-orange-400 transition-colors group-hover:bg-orange-500/20">
                 {iconMap[item.title] || <Truck className="h-8 w-8" />}
               </div>
               <h3 className="mb-2 text-lg font-semibold text-white">{item.title}</h3>

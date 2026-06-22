@@ -55,9 +55,9 @@ export default function PricesContent() {
               <table className="w-full text-left text-sm">
                 <thead>
                   <tr className="border-b border-white/10 bg-white/5">
-                    <th className="px-6 py-4 font-semibold text-amber-400">{t("table.headerMetal")}</th>
-                    <th className="px-6 py-4 font-semibold text-amber-400">{t("table.headerPrice")}</th>
-                    <th className="px-6 py-4 font-semibold text-amber-400">{t("table.headerCondition")}</th>
+                    <th className="px-6 py-4 font-semibold text-orange-400">{t("table.headerMetal")}</th>
+                    <th className="px-6 py-4 font-semibold text-orange-400">{t("table.headerPrice")}</th>
+                    <th className="px-6 py-4 font-semibold text-orange-400">{t("table.headerCondition")}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -71,7 +71,7 @@ export default function PricesContent() {
                       className="border-b border-white/5 transition-colors hover:bg-white/5"
                     >
                       <td className="px-6 py-3.5 font-medium text-white">{row.metal}</td>
-                      <td className="px-6 py-3.5 text-amber-400 font-semibold whitespace-nowrap">S$ {row.price}</td>
+                      <td className="px-6 py-3.5 text-orange-400 font-semibold whitespace-nowrap">S$ {row.price}</td>
                       <td className="px-6 py-3.5 text-gray-400">{row.condition}</td>
                     </motion.tr>
                   ))}
@@ -85,14 +85,14 @@ export default function PricesContent() {
               href="https://wa.me/6567891234"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg bg-green-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-green-400"
+              className="inline-flex items-center gap-2 rounded-lg bg-red-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-red-400"
             >
               <MessageCircle className="h-4 w-4" />
               {t("ctaWhatsApp")}
             </a>
             <a
               href="tel:+6567891234"
-              className="inline-flex items-center gap-2 rounded-lg bg-amber-500 px-6 py-3 text-sm font-semibold text-[#0f172a] transition-colors hover:bg-amber-400"
+              className="inline-flex items-center gap-2 rounded-lg bg-orange-500 px-6 py-3 text-sm font-semibold text-[#0f172a] transition-colors hover:bg-orange-400"
             >
               <Phone className="h-4 w-4" />
               {t("ctaCall")}

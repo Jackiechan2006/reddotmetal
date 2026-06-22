@@ -34,9 +34,9 @@ export default function PriceSection() {
             <table className="w-full text-left text-sm">
               <thead>
                 <tr className="border-b border-white/10 bg-white/5">
-                  <th className="px-6 py-4 font-semibold text-amber-400">{t("table.headerMetal")}</th>
-                  <th className="px-6 py-4 font-semibold text-amber-400">{t("table.headerPrice")}</th>
-                  <th className="px-6 py-4 font-semibold text-amber-400 hidden sm:table-cell">{t("table.headerCondition")}</th>
+                  <th className="px-6 py-4 font-semibold text-orange-400">{t("table.headerMetal")}</th>
+                  <th className="px-6 py-4 font-semibold text-orange-400">{t("table.headerPrice")}</th>
+                  <th className="px-6 py-4 font-semibold text-orange-400 hidden sm:table-cell">{t("table.headerCondition")}</th>
                 </tr>
               </thead>
               <tbody>
@@ -50,7 +50,7 @@ export default function PriceSection() {
                     className="border-b border-white/5 transition-colors hover:bg-white/5"
                   >
                     <td className="px-6 py-3 font-medium text-white">{row.metal}</td>
-                    <td className="px-6 py-3 text-amber-400 font-semibold">S$ {row.price}</td>
+                    <td className="px-6 py-3 text-orange-400 font-semibold">S$ {row.price}</td>
                     <td className="px-6 py-3 text-gray-400 hidden sm:table-cell">{row.condition}</td>
                   </motion.tr>
                 ))}

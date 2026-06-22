@@ -46,7 +46,7 @@ export default function TestimonialsContent() {
               >
                 <div className="mb-3 flex gap-1">
                   {Array.from({ length: item.rating }).map((_, j) => (
-                    <Star key={j} className="h-4 w-4 fill-amber-400 text-amber-400" />
+                    <Star key={j} className="h-4 w-4 fill-orange-400 text-orange-400" />
                   ))}
                 </div>
                 <p className="mb-4 text-sm leading-relaxed text-gray-300 italic">"{item.text}"</p>

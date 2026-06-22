@@ -28,14 +28,14 @@ export default function ContactInstructions() {
             href="https://wa.me/6567891234"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-lg bg-green-500/10 px-4 py-2.5 text-sm font-medium text-green-400 transition-colors hover:bg-green-500/20"
+            className="flex items-center gap-2 rounded-lg bg-red-500/10 px-4 py-2.5 text-sm font-medium text-red-400 transition-colors hover:bg-red-500/20"
           >
             <MessageCircle className="h-4 w-4" />
             {t("quickActions.whatsapp")}
           </a>
           <a
             href="tel:+6567891234"
-            className="flex items-center gap-2 rounded-lg bg-amber-500/10 px-4 py-2.5 text-sm font-medium text-amber-400 transition-colors hover:bg-amber-500/20"
+            className="flex items-center gap-2 rounded-lg bg-orange-500/10 px-4 py-2.5 text-sm font-medium text-orange-400 transition-colors hover:bg-orange-500/20"
           >
             <Phone className="h-4 w-4" />
             {t("quickActions.call")}
@@ -56,12 +56,12 @@ export default function ContactInstructions() {
               transition={{ delay: i * 0.1 }}
               className="flex gap-4 rounded-xl border border-white/10 bg-[#1e293b] p-5"
             >
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-amber-500/10 text-lg">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-orange-500/10 text-lg">
                 {instructionIcons[i]}
               </div>
               <div>
                 <div className="flex items-center gap-2">
-                  <span className="flex h-5 w-5 items-center justify-center rounded-full bg-amber-500 text-[10px] font-bold text-[#0f172a]">
+                  <span className="flex h-5 w-5 items-center justify-center rounded-full bg-orange-500 text-[10px] font-bold text-[#0f172a]">
                     {step.number}
                   </span>
                   <h4 className="font-semibold text-white text-sm">{step.title}</h4>

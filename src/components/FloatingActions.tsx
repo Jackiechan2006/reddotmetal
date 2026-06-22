@@ -17,7 +17,7 @@ export default function FloatingActions() {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.5, type: "spring" }}
         whileHover={{ scale: 1.1 }}
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg shadow-green-500/30 transition-colors hover:bg-green-400"
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-red-500 text-white shadow-lg shadow-red-500/30 transition-colors hover:bg-red-400"
         aria-label="WhatsApp us"
       >
         <MessageCircle className="h-7 w-7" />
@@ -28,7 +28,7 @@ export default function FloatingActions() {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.7, type: "spring" }}
         whileHover={{ scale: 1.1 }}
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-amber-500 text-white shadow-lg shadow-amber-500/30 transition-colors hover:bg-amber-400"
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-orange-500 text-white shadow-lg shadow-orange-500/30 transition-colors hover:bg-orange-400"
         aria-label="Call us"
       >
         <Phone className="h-7 w-7" />

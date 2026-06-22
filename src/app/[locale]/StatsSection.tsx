@@ -15,7 +15,7 @@ function StatItem({ value, suffix, label }: { value: number; suffix: string; lab
   const count = useCountUp(value)
   return (
     <div className="text-center">
-      <div className="text-3xl font-bold text-amber-400 sm:text-4xl">
+      <div className="text-3xl font-bold text-orange-400 sm:text-4xl">
         {count}
         {suffix}
       </div>

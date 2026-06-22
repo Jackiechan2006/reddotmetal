@@ -57,7 +57,7 @@ export default function ContactContent() {
                 const value = t(detail.valueKey)
                 const content = (
                   <div className="flex items-start gap-3">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-500/10 text-amber-400">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-orange-500/10 text-orange-400">
                       <Icon className="h-5 w-5" />
                     </div>
                     <div>
@@ -68,7 +68,7 @@ export default function ContactContent() {
                 )
                 if (detail.href) {
                   return (
-                    <a key={detail.label} href={detail.href} target={detail.href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer" className="block rounded-xl border border-white/10 bg-[#1e293b] p-4 transition-colors hover:border-amber-500/50">
+                    <a key={detail.label} href={detail.href} target={detail.href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer" className="block rounded-xl border border-white/10 bg-[#1e293b] p-4 transition-colors hover:border-orange-500/50">
                       {content}
                     </a>
                   )
@@ -81,14 +81,14 @@ export default function ContactContent() {
               })}
               <div className="overflow-hidden rounded-xl border border-white/10">
                 <iframe
-                  src="https://www.google.com/maps/embed/v1/place?q=362%20Upper%20Paya%20Lebar%20Rd%2C%20%2305-15%20Da%20Jin%20Factory%20Building%2C%20Singapore%20534963&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                  src="https://www.google.com/maps/embed/v1/place?q=15+Gul+Way+Singapore+629198&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                   width="100%"
                   height="220"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Red Dot Metal Location"
+                  title="Red Dot Metal — 15 Gul Way"
                   sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
                 />
               </div>

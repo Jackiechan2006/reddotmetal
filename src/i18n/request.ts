@@ -4,7 +4,7 @@ import { routing } from "./routing";
 export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
 
-  if (!locale || !routing.locales.includes(locale as "en" | "ms" | "zh")) {
+  if (!locale || !routing.locales.includes(locale as "en" | "ms" | "zh" | "bn" | "ta" | "id")) {
     locale = routing.defaultLocale;
   }
 

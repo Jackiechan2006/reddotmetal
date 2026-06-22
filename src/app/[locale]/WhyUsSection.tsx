@@ -28,9 +28,9 @@ export default function WhyUsSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="rounded-xl border border-white/10 bg-[#1e293b] p-6 text-center transition-all hover:border-amber-500/50"
+                className="rounded-xl border border-white/10 bg-[#1e293b] p-6 text-center transition-all hover:border-orange-500/50"
               >
-                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-amber-500/10 text-amber-400">
+                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-orange-500/10 text-orange-400">
                   <Icon className="h-6 w-6" />
                 </div>
                 <h3 className="mb-2 text-lg font-semibold text-white">{feature.title}</h3>

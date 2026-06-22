@@ -45,7 +45,7 @@ export default function ServiceAreaContent() {
                 transition={{ delay: i * 0.08 }}
                 className="flex items-start gap-3 rounded-xl border border-white/10 bg-[#1e293b] p-5"
               >
-                <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-amber-400" />
+                <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-orange-400" />
                 <div>
                   <h3 className="font-semibold text-white">{area.name} Singapore</h3>
                   <p className="mt-1 text-xs text-gray-400">{area.districts}</p>
@@ -61,14 +61,14 @@ export default function ServiceAreaContent() {
               href="https://wa.me/6567891234"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg bg-green-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-green-400"
+              className="inline-flex items-center gap-2 rounded-lg bg-red-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-red-400"
             >
               <MessageCircle className="h-4 w-4" />
               WhatsApp Us
             </a>
             <a
               href="tel:+6567891234"
-              className="inline-flex items-center gap-2 rounded-lg bg-amber-500 px-6 py-3 text-sm font-semibold text-[#0f172a] transition-colors hover:bg-amber-400"
+              className="inline-flex items-center gap-2 rounded-lg bg-orange-500 px-6 py-3 text-sm font-semibold text-[#0f172a] transition-colors hover:bg-orange-400"
             >
               <Phone className="h-4 w-4" />
               Call Now
@@ -81,14 +81,14 @@ export default function ServiceAreaContent() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-xl border border-white/10">
             <iframe
-              src="https://www.google.com/maps/embed/v1/place?q=362%20Upper%20Paya%20Lebar%20Rd%2C%20%2305-15%20Da%20Jin%20Factory%20Building%2C%20Singapore%20534963&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              src="https://www.google.com/maps/embed/v1/place?q=15+Gul+Way+Singapore+629198&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
               width="100%"
               height="400"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Red Dot Metal Service Area"
+              title="Red Dot Metal — 15 Gul Way"
               sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
             />
           </div>

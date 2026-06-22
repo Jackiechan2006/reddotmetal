@@ -10,6 +10,9 @@ const locales = [
   { code: "en", label: "English" },
   { code: "ms", label: "Bahasa Melayu" },
   { code: "zh", label: "中文" },
+  { code: "bn", label: "বাংলা" },
+  { code: "ta", label: "தமிழ்" },
+  { code: "id", label: "Bahasa Indonesia" },
 ]
 
 export default function LanguageSwitcher() {
@@ -32,7 +35,7 @@ export default function LanguageSwitcher() {
 
   const handleChange = (newLocale: string) => {
     startTransition(() => {
-      router.replace(pathname, { locale: newLocale as "en" | "ms" | "zh" })
+      router.replace(pathname, { locale: newLocale as "en" | "ms" | "zh" | "bn" | "ta" | "id" })
       setOpen(false)
     })
   }
@@ -41,7 +44,7 @@ export default function LanguageSwitcher() {
     <div className="relative" ref={ref}>
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-1.5 rounded-lg border border-white/10 px-3 py-1.5 text-sm text-gray-300 transition-colors hover:border-amber-500/50 hover:text-amber-400"
+        className="flex items-center gap-1.5 rounded-lg border border-white/10 px-3 py-1.5 text-sm text-gray-300 transition-colors hover:border-orange-500/50 hover:text-orange-400"
       >
         <Globe className="h-3.5 w-3.5" />
         <span>{current.label}</span>
@@ -56,12 +59,12 @@ export default function LanguageSwitcher() {
               disabled={isPending}
               className={`flex w-full items-center gap-2 rounded-lg px-3 py-2 text-sm transition-colors ${
                 locale === l.code
-                  ? "bg-amber-500/20 text-amber-400"
-                  : "text-gray-300 hover:bg-white/5 hover:text-amber-400"
+                  ? "bg-orange-500/20 text-orange-400"
+                  : "text-gray-300 hover:bg-white/5 hover:text-orange-400"
               }`}
             >
               <span>{l.label}</span>
-              {locale === l.code && <span className="ml-auto text-xs text-amber-400">✓</span>}
+              {locale === l.code && <span className="ml-auto text-xs text-orange-400">✓</span>}
             </button>
           ))}
         </div>

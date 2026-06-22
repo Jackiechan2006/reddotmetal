@@ -1,0 +1,636 @@
+{
+  "home": {
+    "title": "Red Dot Metal | Pendaur Ulang & Pedagang Scrap Metal Terpercaya di Singapura",
+    "description": "Red Dot Metal adalah perusahaan daur ulang dan perdagangan besi tua B2B terkemuka di Singapura. ",
+    "hero": {
+      "title": "Daur Ulang & Perdagangan Scrap Metal Terkemuka di Singapura",
+      "subtitle": "Layanan pengumpulan, perdagangan, dan daur ulang besi tua B2B yang andal di seluruh Singapura. ",
+      "ctaPickup": "Minta Penjemputan",
+      "ctaServices": "Layanan kami",
+      "ctaWhatsApp": "WhatsApp Kami",
+      "ctaCall": "Telepon Sekarang"
+    },
+    "stats": {
+      "years": "Pengalaman Bertahun-tahun",
+      "tons": "Ton Terkumpul",
+      "clients": "Klien Dilayani",
+      "pickups": "Penjemputan di Hari yang Sama"
+    },
+    "services": {
+      "title": "Layanan kami",
+      "subtitle": "Solusi besi tua yang komprehensif untuk bisnis di seluruh Singapura",
+      "items": [
+        {
+          "title": "Koleksi Memo",
+          "desc": "Layanan pengumpulan besi tua reguler dan sesuai permintaan untuk bisnis segala ukuran."
+        },
+        {
+          "title": "Perdagangan Logam",
+          "desc": "Membeli dan menjual logam besi dan non-besi dengan harga pasar yang kompetitif."
+        },
+        {
+          "title": "Penjemputan Industri",
+          "desc": "Layanan penjemputan tugas berat untuk pabrik, galangan kapal, dan lokasi konstruksi."
+        },
+        {
+          "title": "Daur ulang",
+          "desc": "Daur ulang yang bertanggung jawab terhadap lingkungan dan memenuhi semua standar peraturan."
+        },
+        {
+          "title": "Logam Besi",
+          "desc": "Pemrosesan dan daur ulang baja, besi, dan logam besi lainnya."
+        },
+        {
+          "title": "Logam Non-Ferrous",
+          "desc": "Tembaga, aluminium, kuningan, baja tahan karat, dan logam non-besi lainnya."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Cara Kerjanya",
+      "subtitle": "Dari permintaan hingga pembayaran dalam empat langkah sederhana",
+      "steps": [
+        {
+          "title": "Kirim Permintaan",
+          "desc": "Isi formulir online cepat kami, WhatsApp kami, atau hubungi kami."
+        },
+        {
+          "title": "Jadwalkan Penjemputan",
+          "desc": "Kami mengatur penjemputan yang nyaman pada hari yang sama atau hari berikutnya di lokasi Anda."
+        },
+        {
+          "title": "Timbang & Nilai",
+          "desc": "Potongan Anda ditimbang dan dinilai di lokasi Anda atau fasilitas kami."
+        },
+        {
+          "title": "Dapatkan Bayaran Seketika",
+          "desc": "Terima pembayaran instan melalui transfer bank, PayNow, atau tunai di tempat."
+        }
+      ]
+    },
+    "whatWeCollect": {
+      "title": "Apa yang Kami Kumpulkan",
+      "subtitle": "Kami menerima semua jenis logam besi dan non-besi",
+      "items": [
+        {
+          "name": "Baja",
+          "desc": "Baja struktural, balok, pipa, lembaran, dan baja tua"
+        },
+        {
+          "name": "Besi",
+          "desc": "Besi cor, besi tempa, besi leleh berat"
+        },
+        {
+          "name": "Tembaga",
+          "desc": "Tembaga terang telanjang, kawat tembaga, tabung, pipa, tembaga campuran"
+        },
+        {
+          "name": "Aluminium",
+          "desc": "Ekstrusi, lembaran, kaleng, pelek roda, aluminium komersial"
+        },
+        {
+          "name": "Kuningan",
+          "desc": "Potongan kuningan, katup, fitting, batang, putaran"
+        },
+        {
+          "name": "Baja Tahan Karat",
+          "desc": "304, 316 nilai, lembaran, pipa, putaran"
+        },
+        {
+          "name": "Memimpin",
+          "desc": "Baterai timah, lembaran timah, pipa timah"
+        },
+        {
+          "name": "Seng",
+          "desc": "Potongan seng, seng cor mati, galvanisasi"
+        }
+      ]
+    },
+    "whoWeServe": {
+      "title": "Siapa yang Kami Layani",
+      "subtitle": "Dipercaya oleh bisnis di setiap sektor",
+      "items": [
+        {
+          "sector": "Konstruksi & Pembongkaran",
+          "desc": "Rebar, baja struktural, pipa tembaga dari lokasi kerja"
+        },
+        {
+          "sector": "Manufaktur & Fabrikasi",
+          "desc": "Pemotongan, sisa produksi, mesin usang"
+        },
+        {
+          "sector": "Galangan Kapal & Kelautan",
+          "desc": "Pelat baja, kabel, skrap laut non-besi"
+        },
+        {
+          "sector": "Teknik Otomotif",
+          "desc": "Kendaraan yang sudah habis masa pakainya, blok mesin, suku cadang aluminium"
+        },
+        {
+          "sector": "Ritel & Perhotelan",
+          "desc": "Peralatan dapur, unit HVAC, rak, perlengkapan"
+        },
+        {
+          "sector": "Pemerintah & Institusi",
+          "desc": "Kerusakan infrastruktur, perbaikan sekolah dan rumah sakit"
+        }
+      ]
+    },
+    "whyUs": {
+      "title": "Mengapa Memilih Red Dot Metal",
+      "subtitle": "Kami membuat daur ulang besi tua menjadi mudah, transparan, dan menguntungkan",
+      "features": [
+        {
+          "title": "Layanan di Hari yang Sama",
+          "desc": "Kami merespons dalam beberapa jam dan mengambil pada hari yang sama."
+        },
+        {
+          "title": "Penjemputan Gratis",
+          "desc": "Tidak ada biaya tersembunyi. "
+        },
+        {
+          "title": "Pembayaran Instan",
+          "desc": "Dapatkan bayaran instan melalui PayNow, transfer bank, atau uang tunai."
+        },
+        {
+          "title": "Penetapan Harga Transparan",
+          "desc": "Harga pasar real-time dengan bobot dan rincian harga yang jelas."
+        },
+        {
+          "title": "Berlisensi & Bersertifikat",
+          "desc": "Lisensi penuh oleh NEA. "
+        },
+        {
+          "title": "Kami Mencakup Semua Area",
+          "desc": "Melayani seluruh Singapura — Timur, Barat, Utara, Selatan, Tengah."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Apa Kata Klien Kami",
+      "subtitle": "Dipercaya oleh ratusan bisnis di Singapura",
+      "items": [
+        {
+          "name": "Ahmad Ibrahim",
+          "company": "Ibrahim Konstruksi Pte Ltd",
+          "text": "Red Dot Metal telah menjadi mitra pengumpulan barang bekas kami selama 3 tahun. ",
+          "rating": 5
+        },
+        {
+          "name": "Michelle Tan",
+          "company": "Pekerjaan Teknik Tan",
+          "text": "Fitur pembayaran instan adalah pengubah permainan. ",
+          "rating": 5
+        },
+        {
+          "name": "David Kumar",
+          "company": "Daur Ulang Kapal Kumar",
+          "text": "Mereka menangani sampah laut kami secara profesional. ",
+          "rating": 5
+        },
+        {
+          "name": "Siti Rahman",
+          "company": "Manufaktur Rahman",
+          "text": "Saya suka betapa mudahnya. ",
+          "rating": 5
+        }
+      ]
+    },
+    "serviceArea": {
+      "title": "Area Layanan kami",
+      "subtitle": "Kami mencakup seluruh pulau Singapura",
+      "areas": [
+        {
+          "name": "Pusat",
+          "districts": "Balai Kota, Orchard, Chinatown, Clarke Quay"
+        },
+        {
+          "name": "Timur",
+          "districts": "Changi, Tampines, Bedok, Pasir Ris"
+        },
+        {
+          "name": "Barat",
+          "districts": "Jurong, Tuas, Pelopor, Boon Lay"
+        },
+        {
+          "name": "Utara",
+          "districts": "Hutan, Sembawang, Yishun, Mandai"
+        },
+        {
+          "name": "Timur laut",
+          "districts": "Punggol, Sengkang, Hougang, Serangoon"
+        },
+        {
+          "name": "Selatan",
+          "districts": "Bukit Merah, HarbourFront, Sentosa"
+        }
+      ],
+      "cta": "Kami mencakup semua kawasan industri termasuk Kawasan Industri Jurong, Tuas, Sungei Kadut, Senoko, dan banyak lagi. "
+    },
+    "prices": {
+      "title": "Harga Scrap Metal Saat Ini",
+      "subtitle": "Harga pasar yang kompetitif diperbarui secara berkala. ",
+      "table": {
+        "headerMetal": "Tipe Logam",
+        "headerPrice": "Harga (S$/kg)",
+        "headerCondition": "Kondisi"
+      },
+      "note": "Harga bersifat indikatif dan dapat berubah berdasarkan kondisi pasar. ",
+      "cta": "Dapatkan Penawaran Pasti"
+    },
+    "cta": {
+      "title": "Siap mengubah memo Anda menjadi uang tunai?",
+      "button": "Jadwalkan Penjemputan Hari Ini",
+      "whatsapp": "Ngobrol di WhatsApp"
+    },
+    "contact": {
+      "title": "Hubungi Kami",
+      "subtitle": "Ada pertanyaan? "
+    }
+  },
+  "about": {
+    "title": "Tentang Kami | Red Dot Metal",
+    "description": "Pelajari tentang Red Dot Metal — perusahaan daur ulang dan perdagangan besi tua B2B tepercaya di Singapura. ",
+    "hero": {
+      "title": "Tentang Red Dot Metal",
+      "subtitle": "Mitra terpercaya Singapura dalam daur ulang dan perdagangan besi tua"
+    },
+    "overview": "Red Dot Metal adalah perusahaan daur ulang dan perdagangan besi tua B2B yang berbasis di Singapura yang berdedikasi untuk menyediakan solusi pengelolaan limbah logam yang andal, transparan, dan bertanggung jawab terhadap lingkungan. ",
+    "mission": "Menjadi mitra besi tua paling tepercaya di Singapura dengan memberikan layanan luar biasa, harga wajar, dan praktik daur ulang berkelanjutan.",
+    "vision": "Untuk memimpin transisi menuju ekonomi sirkular di mana setiap bagian logam diperoleh kembali, didaur ulang, dan digunakan kembali — mengurangi limbah dan melestarikan sumber daya untuk generasi mendatang.",
+    "values": [
+      {
+        "title": "Integritas",
+        "desc": "Penimbangan yang jujur, penetapan harga yang transparan, dan praktik bisnis yang beretika dalam setiap transaksi."
+      },
+      {
+        "title": "Keandalan",
+        "desc": "Pengambilan di hari yang sama, pembayaran tepat waktu, dan kualitas layanan konsisten yang dapat Anda andalkan."
+      },
+      {
+        "title": "Keberlanjutan",
+        "desc": "Komitmen terhadap daur ulang yang bertanggung jawab terhadap lingkungan dan melebihi persyaratan peraturan."
+      }
+    ],
+    "team": "Tim kami menyatukan keahlian dalam perdagangan logam, logistik, dan kepatuhan lingkungan. "
+  },
+  "services": {
+    "title": "Pelayanan Kami | Red Dot Metal",
+    "description": "Layanan daur ulang dan perdagangan besi tua B2B yang komprehensif di Singapura. ",
+    "hero": {
+      "title": "Layanan kami",
+      "subtitle": "Solusi besi tua yang menyeluruh untuk bisnis di Singapura"
+    },
+    "items": [
+      {
+        "title": "Koleksi Memo",
+        "desc": "Kami menyediakan layanan pengambilan terjadwal dan penjemputan sesuai permintaan untuk bisnis di seluruh Singapura. ",
+        "process": "Telepon atau pesan online → Kami mengonfirmasi slot waktu → Tim kami tiba dan memuat barang bekas → Anda mendapatkan tiket jembatan timbang dan pembayaran"
+      },
+      {
+        "title": "Perdagangan Logam",
+        "desc": "Kami membeli dan menjual berbagai macam logam besi dan non-besi dengan harga pasar yang kompetitif. ",
+        "process": "Hubungi kami dengan jenis dan volume logam Anda → Kami memberikan penawaran langsung → Setuju harga → Atur pengiriman atau pengambilan → Pembayaran dalam waktu 24 jam"
+      },
+      {
+        "title": "Penjemputan Industri",
+        "desc": "Layanan penjemputan tugas berat yang disesuaikan untuk pabrik, galangan kapal, lokasi konstruksi, dan fasilitas manufaktur. ",
+        "process": "Jadwalkan penilaian lokasi → Dapatkan penawaran berdasarkan volume → Kami menggunakan peralatan yang tepat → Pemuatan dan pemindahan yang efisien → Dokumentasi pembuangan limbah"
+      },
+      {
+        "title": "Daur ulang",
+        "desc": "Fasilitas kami memproses besi tua melalui penghancuran, penyortiran, dan pemurnian untuk menghasilkan bahan daur ulang berkualitas tinggi. ",
+        "process": "Scrap tiba di fasilitas kami → Diurutkan berdasarkan jenis → Diproses melalui jalur daur ulang kami → Kualitas diperiksa → Disuplai ke pabrik dan pengecoran logam"
+      },
+      {
+        "title": "Logam Besi",
+        "desc": "Kami mengkhususkan diri dalam pemrosesan dan perdagangan logam besi termasuk baja leleh berat, besi tua, besi tuang, dan baja struktural. ",
+        "process": "Material dinilai pada saat kedatangan → Dinilai berdasarkan standar internasional → Diproses dan disiapkan → Dikirim ke pabrik baja dan pengecoran logam"
+      },
+      {
+        "title": "Logam Non-Ferrous",
+        "desc": "Kami menangani semua logam non-ferrous utama termasuk tembaga (telanjang, terang, campuran), aluminium (ekstrusi, lembaran, skrap), kuningan, baja tahan karat, timah, dan seng. ",
+        "process": "Logam diidentifikasi dan disortir → Kontaminan dihilangkan → Diproses sesuai spesifikasi → Dijual ke penyulingan dan produsen"
+      }
+    ],
+    "process": {
+      "title": "Proses Kami",
+      "steps": [
+        {
+          "title": "Hubungi kami",
+          "desc": "Hubungi kami melalui telepon, email, WhatsApp, atau formulir online kami"
+        },
+        {
+          "title": "Dapatkan Penawaran",
+          "desc": "Kirim foto memo Anda — kami akan langsung mengutip Anda"
+        },
+        {
+          "title": "Jadwalkan Penjemputan",
+          "desc": "Pilih slot waktu yang nyaman untuk pengambilan pada hari yang sama"
+        },
+        {
+          "title": "Timbang & Proses",
+          "desc": "Potongan Anda ditimbang, dinilai, dan diproses di tempat"
+        },
+        {
+          "title": "Dapatkan Bayaran Seketika",
+          "desc": "Terima pembayaran instan melalui PayNow, transfer bank, atau uang tunai"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Siap untuk memulai?",
+      "button": "Permintaan Penawaran"
+    }
+  },
+  "contact": {
+    "title": "Hubungi Kami | Red Dot Metal",
+    "description": "Hubungi Red Dot Metal. ",
+    "hero": {
+      "title": "Hubungi kami",
+      "subtitle": "Kami di sini untuk membantu. "
+    },
+    "quickActions": {
+      "title": "Tindakan Cepat",
+      "whatsapp": "WhatsApp Kami",
+      "call": "Telepon Sekarang",
+      "email": "Kirim Email",
+      "map": "Lihat di Peta"
+    },
+    "instructions": {
+      "title": "Cara Kerja — 3 Langkah Sederhana",
+      "subtitle": "Kumpulkan memo Anda dan dapatkan bayaran pada hari yang sama",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Kirim Foto & Detail",
+          "desc": "Ambil foto besi tua Anda dan WhatsApp atau kirimkan melalui email kepada kami. "
+        },
+        {
+          "number": 2,
+          "title": "Dapatkan Penawaran & Jadwal Instan",
+          "desc": "Kami akan membalas dalam beberapa menit dengan harga terbaik kami. "
+        },
+        {
+          "number": 3,
+          "title": "Kami Mengumpulkan, Menimbang & Membayar",
+          "desc": "Tim kami tiba di lokasi Anda, memuat barang bekas, menimbangnya di depan Anda, dan Anda dibayar langsung melalui PayNow atau uang tunai."
+        }
+      ]
+    },
+    "form": {
+      "name": "Nama",
+      "company": "Perusahaan",
+      "email": "E-mail",
+      "phone": "Telepon",
+      "metalType": "Tipe Logam",
+      "message": "Pesan",
+      "submit": "Kirim Pesan",
+      "sending": "Mengirim...",
+      "success": "Pesan berhasil terkirim! ",
+      "error": "Ada yang tidak beres. ",
+      "placeholders": {
+        "name": "Namamu",
+        "company": "Nama perusahaan",
+        "email": "email@contoh.com",
+        "phone": "+65 9123 4567",
+        "message": "Beritahu kami tentang memo Anda atau tanyakan apa pun kepada kami..."
+      }
+    },
+    "details": {
+      "phone": "+65 6789 1234",
+      "whatsapp": "https://wa.me/6567891234",
+      "email": "halo@reddotmetal.com",
+      "address": "15 Gul Way, Singapura 629198",
+      "hours": "Senin–Jumat: 08.00 – 18.00\n"
+    },
+    "metalOptions": [
+      {
+        "value": "besi",
+        "label": "Logam Besi (Baja, Besi)"
+      },
+      {
+        "value": "non-besi",
+        "label": "Logam Non-Ferrous (Tembaga, Aluminium)"
+      },
+      {
+        "value": "campur aduk",
+        "label": "Memo Campuran"
+      },
+      {
+        "value": "industri",
+        "label": "Limbah Industri"
+      },
+      {
+        "value": "lainnya",
+        "label": "Lainnya"
+      }
+    ]
+  },
+  "quote": {
+    "title": "Minta Penawaran | Red Dot Metal",
+    "description": "Dapatkan penawaran kompetitif untuk besi tua Anda. ",
+    "hero": {
+      "title": "Permintaan Penawaran",
+      "subtitle": "Kirimkan foto memo Anda kepada kami atau isi detailnya. "
+    },
+    "quickQuote": {
+      "title": "Cara Lebih Cepat? ",
+      "desc": "Kirim foto besi tua Anda di WhatsApp dan dapatkan penawaran instan.",
+      "button": "Ngobrol di WhatsApp"
+    },
+    "form": {
+      "companyName": "Nama perusahaan",
+      "contactPerson": "Kontak person",
+      "email": "E-mail",
+      "phone": "Telepon",
+      "metalType": "Jenis Logam",
+      "estimatedWeight": "Perkiraan Berat (kg)",
+      "pickupAddress": "Alamat Penjemputan",
+      "preferredDate": "Tanggal Pengambilan Pilihan",
+      "notes": "Catatan Tambahan",
+      "submit": "Kirim Permintaan Penawaran",
+      "sending": "Mengirimkan...",
+      "success": "Permintaan penawaran telah dikirimkan! ",
+      "error": "Ada yang tidak beres. "
+    },
+    "metalOptions": [
+      {
+        "value": "baja",
+        "label": "Baja"
+      },
+      {
+        "value": "besi",
+        "label": "Besi"
+      },
+      {
+        "value": "tembaga",
+        "label": "Tembaga"
+      },
+      {
+        "value": "aluminium",
+        "label": "Aluminium"
+      },
+      {
+        "value": "kuningan",
+        "label": "Kuningan"
+      },
+      {
+        "value": "tahan karat",
+        "label": "Baja Tahan Karat"
+      },
+      {
+        "value": "memimpin",
+        "label": "Memimpin"
+      },
+      {
+        "value": "campur aduk",
+        "label": "Logam Campuran"
+      },
+      {
+        "value": "lainnya",
+        "label": "Lainnya"
+      }
+    ]
+  },
+  "prices": {
+    "title": "Harga Scrap Metal | Red Dot Metal",
+    "description": "Periksa harga besi tua saat ini di Singapura. ",
+    "hero": {
+      "title": "Harga Logam Bekas",
+      "subtitle": "Harga pasar saat ini untuk semua logam besi dan non-besi"
+    },
+    "table": {
+      "headerMetal": "Tipe Logam",
+      "headerPrice": "Harga (S$/kg)",
+      "headerCondition": "Kondisi",
+      "headerUpdated": "Terakhir Diperbarui"
+    },
+    "note": "Harga bersifat indikatif dan diperbarui secara berkala. ",
+    "ctaWhatsApp": "Dapatkan Harga Tegas di WhatsApp",
+    "ctaCall": "Hubungi untuk Harga Terbaik"
+  },
+  "testimonials": {
+    "title": "Testimoni | Red Dot Metal",
+    "description": "Dengarkan pendapat ratusan bisnis yang puas dan mempercayai Red Dot Metal untuk kebutuhan daur ulang besi tua mereka.",
+    "hero": {
+      "title": "Apa Kata Klien Kami",
+      "subtitle": "Dengarkan dari bisnis yang mempercayai kami setiap hari"
+    }
+  },
+  "serviceArea": {
+    "title": "Area Layanan | Red Dot Metal",
+    "description": "Red Dot Metal mencakup seluruh Singapura — Timur, Barat, Utara, Selatan, dan Tengah. ",
+    "hero": {
+      "title": "Area Layanan kami",
+      "subtitle": "Pengumpulan besi tua pada hari yang sama di seluruh Singapura"
+    },
+    "coverage": "Kami menyediakan layanan pengumpulan besi tua di seluruh pulau Singapura. ",
+    "areas": [
+      {
+        "name": "Pusat",
+        "districts": "Balai Kota, Orchard, Chinatown, Clarke Quay, Marina Bay, Rochor"
+      },
+      {
+        "name": "Timur",
+        "districts": "Changi, Tampines, Bedok, Pasir Ris, Simei, Kembangan, Eunos"
+      },
+      {
+        "name": "Barat",
+        "districts": "Jurong, Tuas, Pioneer, Boon Lay, Clementi, Bukit Batok, Choa Chu Kang"
+      },
+      {
+        "name": "Utara",
+        "districts": "Hutan, Sembawang, Yishun, Mandai, Angkatan Laut, Canberra"
+      },
+      {
+        "name": "Timur laut",
+        "districts": "Punggol, Sengkang, Hougang, Serangoon, Ang Mo Kio, Buangkok"
+      },
+      {
+        "name": "Selatan",
+        "districts": "Bukit Merah, HarbourFront, Sentosa, Telok Blangah, Gunung Faber"
+      }
+    ],
+    "industrialEstates": "Kami berspesialisasi dalam melayani semua kawasan industri besar: Kawasan Industri Jurong, Tuas, Sungei Kadut, Senoko, Defu, Kaki Bukit, Ubi, MacPherson, Tampines, dan banyak lagi.",
+    "cta": "Hubungi kami sekarang untuk pengambilan pada hari yang sama di mana saja di Singapura."
+  },
+  "admin": {
+    "title": "Panel Admin | Red Dot Metal",
+    "description": "Kelola bisnis besi tua Anda — harga, testimonial, area layanan, dan pertanyaan.",
+    "login": {
+      "title": "Masuk Admin",
+      "email": "E-mail",
+      "password": "Kata sandi",
+      "submit": "Masuk",
+      "error": "Kredensial tidak valid. "
+    },
+    "dashboard": {
+      "title": "Dasbor",
+      "inquiries": "Pertanyaan Terbaru",
+      "prices": "Kelola Harga",
+      "testimonials": "Kelola Testimonial",
+      "serviceAreas": "Area Layanan",
+      "noInquiries": "Belum ada pertanyaan."
+    },
+    "prices": {
+      "title": "Kelola Harga",
+      "add": "Tambahkan Harga",
+      "edit": "Sunting",
+      "delete": "Menghapus",
+      "save": "Simpan Perubahan",
+      "cancel": "Membatalkan",
+      "metal": "Tipe Logam",
+      "price": "Harga (S$/kg)",
+      "condition": "Kondisi",
+      "actions": "Tindakan"
+    },
+    "testimonials": {
+      "title": "Kelola Testimonial",
+      "add": "Tambahkan Testimonial",
+      "edit": "Sunting",
+      "delete": "Menghapus",
+      "save": "Simpan Perubahan",
+      "cancel": "Membatalkan",
+      "name": "Nama",
+      "company": "Perusahaan",
+      "text": "Kesaksian",
+      "rating": "Peringkat",
+      "actions": "Tindakan"
+    }
+  },
+  "common": {
+    "nav": {
+      "home": "Rumah",
+      "about": "Tentang",
+      "services": "Layanan",
+      "testimonials": "Testimonial",
+      "serviceArea": "Wilayah Layanan",
+      "prices": "Harga",
+      "contact": "Kontak",
+      "quote": "Dapatkan Penawaran",
+      "whatWeCollect": "Apa yang Kami Kumpulkan",
+      "whoWeServe": "Siapa yang Kami Layani",
+      "whyUs": "Mengapa Kami"
+    },
+    "footer": {
+      "description": "Mitra B2B terpercaya Singapura untuk daur ulang dan perdagangan besi tua. ",
+      "quickLinks": "Tautan Cepat",
+      "services": "Layanan",
+      "contact": "Kontak",
+      "copyright": "© 2024 Red Dot Metal. ",
+      "phone": "+65 6789 1234",
+      "whatsapp": "Ada apa",
+      "email": "halo@reddotmetal.com",
+      "address": "15 Gul Way, Singapura 629198"
+    },
+    "language": {
+      "en": "English",
+      "ms": "Bahasa Melayu",
+      "zh": "中文",
+      "bn": "বাংলা",
+      "ta": "தமிழ்",
+      "id": "Bahasa Indonesia"
+    }
+  }
+}

@@ -23,7 +23,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-1.5 text-sm text-amber-400">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-orange-500/30 bg-orange-500/10 px-4 py-1.5 text-sm text-orange-400">
             Singapore's #1 B2B Scrap Metal Partner
           </div>
         </motion.div>
@@ -51,7 +51,7 @@ export default function HeroSection() {
         >
           <div className="flex flex-wrap justify-center gap-3">
             <Link href="/quote">
-              <Button size="lg" className="bg-amber-500 text-[#0f172a] hover:bg-amber-400 px-8 font-semibold text-base">
+              <Button size="lg" className="bg-orange-500 text-[#0f172a] hover:bg-orange-400 px-8 font-semibold text-base">
                 {t("ctaPickup")}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
@@ -73,14 +73,14 @@ export default function HeroSection() {
             href="https://wa.me/6567891234"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-green-500/10 px-5 py-2 text-sm font-medium text-green-400 transition-colors hover:bg-green-500/20"
+            className="inline-flex items-center gap-2 rounded-full bg-red-500/10 px-5 py-2 text-sm font-medium text-red-400 transition-colors hover:bg-red-500/20"
           >
             <MessageCircle className="h-4 w-4" />
             {t("ctaWhatsApp")}
           </a>
           <a
             href="tel:+6567891234"
-            className="inline-flex items-center gap-2 rounded-full bg-amber-500/10 px-5 py-2 text-sm font-medium text-amber-400 transition-colors hover:bg-amber-500/20"
+            className="inline-flex items-center gap-2 rounded-full bg-orange-500/10 px-5 py-2 text-sm font-medium text-orange-400 transition-colors hover:bg-orange-500/20"
           >
             <Phone className="h-4 w-4" />
             {t("ctaCall")}

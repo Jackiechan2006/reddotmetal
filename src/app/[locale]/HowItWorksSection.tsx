@@ -31,12 +31,12 @@ export default function HowItWorksSection() {
                 className="relative text-center"
               >
                 {i < steps.length - 1 && (
-                  <div className="absolute left-[60%] top-8 hidden h-0.5 w-[80%] bg-gradient-to-r from-amber-500/50 to-transparent md:block" />
+                  <div className="absolute left-[60%] top-8 hidden h-0.5 w-[80%] bg-gradient-to-r from-orange-500/50 to-transparent md:block" />
                 )}
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-amber-500/10 text-amber-400">
+                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-orange-500/10 text-orange-400">
                   <Icon className="h-7 w-7" />
                 </div>
-                <div className="mb-2 inline-flex h-6 w-6 items-center justify-center rounded-full bg-amber-500 text-xs font-bold text-[#0f172a]">
+                <div className="mb-2 inline-flex h-6 w-6 items-center justify-center rounded-full bg-orange-500 text-xs font-bold text-[#0f172a]">
                   {i + 1}
                 </div>
                 <h3 className="mt-2 text-lg font-semibold text-white">{step.title}</h3>

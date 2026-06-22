@@ -35,9 +35,9 @@ export default function WhatWeCollectSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.05 }}
-              className="flex items-center gap-4 rounded-xl border border-white/10 bg-[#1e293b] p-4 transition-all hover:border-amber-500/50"
+              className="flex items-center gap-4 rounded-xl border border-white/10 bg-[#1e293b] p-4 transition-all hover:border-orange-500/50"
             >
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-500/10 text-amber-400">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-orange-500/10 text-orange-400">
                 {iconMap[item.name] || <Recycle className="h-6 w-6" />}
               </div>
               <div>

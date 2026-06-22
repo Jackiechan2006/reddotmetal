@@ -25,9 +25,7 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded bg-amber-500 text-sm font-bold text-[#0f172a]">
-                RM
-              </div>
+              <img src="/logo.jpg" alt="Red Dot Metal" className="h-8 w-auto" />
               <span className="text-lg font-bold text-white">Red Dot Metal</span>
             </Link>
             <p className="text-sm text-gray-400">{t("footer.description")}</p>
@@ -36,13 +34,13 @@ export default function Footer() {
                 href="https://wa.me/6567891234"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-lg bg-green-500/10 text-green-400 transition-colors hover:bg-green-500/20"
+                className="flex h-9 w-9 items-center justify-center rounded-lg bg-red-500/10 text-red-400 transition-colors hover:bg-red-500/20"
               >
                 <MessageCircle className="h-4 w-4" />
               </a>
               <a
                 href="tel:+6567891234"
-                className="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-500/10 text-amber-400 transition-colors hover:bg-amber-500/20"
+                className="flex h-9 w-9 items-center justify-center rounded-lg bg-orange-500/10 text-orange-400 transition-colors hover:bg-orange-500/20"
               >
                 <Phone className="h-4 w-4" />
               </a>
@@ -61,7 +59,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-gray-400 transition-colors hover:text-amber-400"
+                    className="text-sm text-gray-400 transition-colors hover:text-orange-400"
                   >
                     {t(`nav.${link.label}`)}
                   </Link>
@@ -76,7 +74,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-gray-400">
-                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
+                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-orange-400" />
                 {t("footer.phone")}
               </li>
               <li>
@@ -84,18 +82,18 @@ export default function Footer() {
                   href="https://wa.me/6567891234"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-2 text-sm text-gray-400 transition-colors hover:text-green-400"
+                  className="flex items-start gap-2 text-sm text-gray-400 transition-colors hover:text-red-400"
                 >
-                  <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
+                  <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-orange-400" />
                   {t("footer.whatsapp")}
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-gray-400">
-                <Mail className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
+                <Mail className="mt-0.5 h-4 w-4 shrink-0 text-orange-400" />
                 {t("footer.email")}
               </li>
               <li className="flex items-start gap-2 text-sm text-gray-400">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-orange-400" />
                 {t("footer.address")}
               </li>
             </ul>

@@ -52,11 +52,11 @@ export default function AboutContent() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-8 md:grid-cols-2">
             <div className="rounded-xl border border-white/10 bg-[#1e293b] p-8">
-              <h3 className="mb-4 text-xl font-bold text-amber-400">Our Mission</h3>
+              <h3 className="mb-4 text-xl font-bold text-orange-400">Our Mission</h3>
               <p className="text-gray-300 leading-relaxed">{t("mission")}</p>
             </div>
             <div className="rounded-xl border border-white/10 bg-[#1e293b] p-8">
-              <h3 className="mb-4 text-xl font-bold text-amber-400">Our Vision</h3>
+              <h3 className="mb-4 text-xl font-bold text-orange-400">Our Vision</h3>
               <p className="text-gray-300 leading-relaxed">{t("vision")}</p>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function AboutContent() {
                   transition={{ delay: i * 0.1 }}
                   className="rounded-xl border border-white/10 bg-[#1e293b] p-6 text-center"
                 >
-                  <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-amber-500/10 text-amber-400">
+                  <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-orange-500/10 text-orange-400">
                     {Icon && <Icon className="h-6 w-6" />}
                   </div>
                   <h3 className="mb-2 text-lg font-semibold text-white">{v.title}</h3>
@@ -106,7 +106,7 @@ export default function AboutContent() {
                 key={badge}
                 className="flex items-center gap-2 rounded-full border border-white/10 bg-[#1e293b] px-5 py-2 text-sm font-medium text-gray-300"
               >
-                <Award className="h-4 w-4 text-amber-400" />
+                <Award className="h-4 w-4 text-orange-400" />
                 {badge}
               </div>
             ))}

@@ -57,14 +57,14 @@ export default function ServicesContent() {
                 className="rounded-xl border border-white/10 bg-[#1e293b] p-8"
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-lg bg-amber-500/10 text-amber-400">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-lg bg-orange-500/10 text-orange-400">
                     {iconMap[item.title] || <Truck className="h-8 w-8" />}
                   </div>
                   <div className="space-y-3">
                     <h3 className="text-xl font-bold text-white">{item.title}</h3>
                     <p className="text-gray-400 leading-relaxed">{item.desc}</p>
                     <div className="rounded-lg bg-white/5 p-4">
-                      <p className="text-sm font-medium text-amber-400">Process:</p>
+                      <p className="text-sm font-medium text-orange-400">Process:</p>
                       <p className="text-sm text-gray-400">{item.process}</p>
                     </div>
                   </div>
@@ -88,7 +88,7 @@ export default function ServicesContent() {
                 transition={{ delay: i * 0.1 }}
                 className="text-center"
               >
-                <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-amber-500 text-sm font-bold text-[#0f172a]">
+                <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-orange-500 text-sm font-bold text-[#0f172a]">
                   {i + 1}
                 </div>
                 <h4 className="font-semibold text-white">{step.title}</h4>
@@ -103,7 +103,7 @@ export default function ServicesContent() {
         <div className="mx-auto max-w-3xl px-4 text-center">
           <h2 className="mb-6 text-3xl font-bold text-white">{t("cta.title")}</h2>
           <Link href="/quote">
-            <Button size="lg" className="bg-amber-500 text-[#0f172a] hover:bg-amber-400 font-semibold text-base">
+            <Button size="lg" className="bg-orange-500 text-[#0f172a] hover:bg-orange-400 font-semibold text-base">
               {t("cta.button")}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>

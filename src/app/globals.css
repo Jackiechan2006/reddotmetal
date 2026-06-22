@@ -3,22 +3,25 @@
 @theme inline {
   --color-background: #0f172a;
   --color-foreground: #f8fafc;
-  --color-primary: #f59e0b;
+  --color-primary: #d97706;
   --color-primary-foreground: #0f172a;
+  --color-primary-orange: #ea580c;
+  --color-primary-red: #dc2626;
+  --color-primary-gold: #f59e0b;
   --color-secondary: #1e293b;
   --color-secondary-foreground: #f8fafc;
   --color-muted: #1e293b;
   --color-muted-foreground: #94a3b8;
-  --color-accent: #1e293b;
-  --color-accent-foreground: #f8fafc;
+  --color-accent: #ea580c;
+  --color-accent-foreground: #0f172a;
   --color-card: #1e293b;
   --color-card-foreground: #f8fafc;
   --color-popover: #1e293b;
   --color-popover-foreground: #f8fafc;
   --color-border: #334155;
   --color-input: #334155;
-  --color-ring: #f59e0b;
-  --color-destructive: #ef4444;
+  --color-ring: #d97706;
+  --color-destructive: #dc2626;
   --color-destructive-foreground: #f8fafc;
   --radius: 0.5rem;
 }

@@ -20,82 +20,210 @@
       "title": "Our Services",
       "subtitle": "Comprehensive scrap metal solutions for businesses across Singapore",
       "items": [
-        { "title": "Scrap Collection", "desc": "Regular and on-demand scrap metal collection services for businesses of all sizes." },
-        { "title": "Metal Trading", "desc": "Buy and sell ferrous and non-ferrous metals at competitive market prices." },
-        { "title": "Industrial Pickup", "desc": "Heavy-duty pickup services for factories, shipyards, and construction sites." },
-        { "title": "Recycling", "desc": "Environmentally responsible recycling that meets all regulatory standards." },
-        { "title": "Ferrous Metals", "desc": "Steel, iron, and other ferrous metal processing and recycling." },
-        { "title": "Non-Ferrous Metals", "desc": "Copper, aluminium, brass, stainless steel, and other non-ferrous metals." }
+        {
+          "title": "Scrap Collection",
+          "desc": "Regular and on-demand scrap metal collection services for businesses of all sizes."
+        },
+        {
+          "title": "Metal Trading",
+          "desc": "Buy and sell ferrous and non-ferrous metals at competitive market prices."
+        },
+        {
+          "title": "Industrial Pickup",
+          "desc": "Heavy-duty pickup services for factories, shipyards, and construction sites."
+        },
+        {
+          "title": "Recycling",
+          "desc": "Environmentally responsible recycling that meets all regulatory standards."
+        },
+        {
+          "title": "Ferrous Metals",
+          "desc": "Steel, iron, and other ferrous metal processing and recycling."
+        },
+        {
+          "title": "Non-Ferrous Metals",
+          "desc": "Copper, aluminium, brass, stainless steel, and other non-ferrous metals."
+        }
       ]
     },
     "howItWorks": {
       "title": "How It Works",
       "subtitle": "From request to payment in four simple steps",
       "steps": [
-        { "title": "Submit Request", "desc": "Fill out our quick online form, WhatsApp us, or give us a call." },
-        { "title": "Schedule Pickup", "desc": "We arrange a convenient same-day or next-day pickup at your location." },
-        { "title": "Weigh & Grade", "desc": "Your scrap is weighed and graded at your site or our facility." },
-        { "title": "Get Paid Instantly", "desc": "Receive instant payment via bank transfer, PayNow, or cash on the spot." }
+        {
+          "title": "Submit Request",
+          "desc": "Fill out our quick online form, WhatsApp us, or give us a call."
+        },
+        {
+          "title": "Schedule Pickup",
+          "desc": "We arrange a convenient same-day or next-day pickup at your location."
+        },
+        {
+          "title": "Weigh & Grade",
+          "desc": "Your scrap is weighed and graded at your site or our facility."
+        },
+        {
+          "title": "Get Paid Instantly",
+          "desc": "Receive instant payment via bank transfer, PayNow, or cash on the spot."
+        }
       ]
     },
     "whatWeCollect": {
       "title": "What We Collect",
       "subtitle": "We accept all types of ferrous and non-ferrous metals",
       "items": [
-        { "name": "Steel", "desc": "Structural steel, beams, pipes, sheets, and scrap steel" },
-        { "name": "Iron", "desc": "Cast iron, wrought iron, heavy melting iron" },
-        { "name": "Copper", "desc": "Bare bright copper, copper wire, tubes, pipes, mixed copper" },
-        { "name": "Aluminium", "desc": "Extrusions, sheets, cans, wheel rims, commercial aluminium" },
-        { "name": "Brass", "desc": "Brass scrap, valves, fittings, rods, turnings" },
-        { "name": "Stainless Steel", "desc": "304, 316 grades, sheets, pipes, turnings" },
-        { "name": "Lead", "desc": "Lead batteries, lead sheets, lead pipes" },
-        { "name": "Zinc", "desc": "Zinc scrap, die cast zinc, galvanizing" }
+        {
+          "name": "Steel",
+          "desc": "Structural steel, beams, pipes, sheets, and scrap steel"
+        },
+        {
+          "name": "Iron",
+          "desc": "Cast iron, wrought iron, heavy melting iron"
+        },
+        {
+          "name": "Copper",
+          "desc": "Bare bright copper, copper wire, tubes, pipes, mixed copper"
+        },
+        {
+          "name": "Aluminium",
+          "desc": "Extrusions, sheets, cans, wheel rims, commercial aluminium"
+        },
+        {
+          "name": "Brass",
+          "desc": "Brass scrap, valves, fittings, rods, turnings"
+        },
+        {
+          "name": "Stainless Steel",
+          "desc": "304, 316 grades, sheets, pipes, turnings"
+        },
+        {
+          "name": "Lead",
+          "desc": "Lead batteries, lead sheets, lead pipes"
+        },
+        {
+          "name": "Zinc",
+          "desc": "Zinc scrap, die cast zinc, galvanizing"
+        }
       ]
     },
     "whoWeServe": {
       "title": "Who We Serve",
       "subtitle": "Trusted by businesses across every sector",
       "items": [
-        { "sector": "Construction & Demolition", "desc": "Rebar, structural steel, copper piping from job sites" },
-        { "sector": "Manufacturing & Fabrication", "desc": "Offcuts, production scrap, obsolete machinery" },
-        { "sector": "Shipyards & Marine", "desc": "Steel plates, cables, non-ferrous marine scrap" },
-        { "sector": "Automotive & Engineering", "desc": "End-of-life vehicles, engine blocks, aluminium parts" },
-        { "sector": "Retail & Hospitality", "desc": "Kitchen equipment, HVAC units, shelving, fixtures" },
-        { "sector": "Government & Institutions", "desc": "Infrastructure scrap, school and hospital refurbishments" }
+        {
+          "sector": "Construction & Demolition",
+          "desc": "Rebar, structural steel, copper piping from job sites"
+        },
+        {
+          "sector": "Manufacturing & Fabrication",
+          "desc": "Offcuts, production scrap, obsolete machinery"
+        },
+        {
+          "sector": "Shipyards & Marine",
+          "desc": "Steel plates, cables, non-ferrous marine scrap"
+        },
+        {
+          "sector": "Automotive & Engineering",
+          "desc": "End-of-life vehicles, engine blocks, aluminium parts"
+        },
+        {
+          "sector": "Retail & Hospitality",
+          "desc": "Kitchen equipment, HVAC units, shelving, fixtures"
+        },
+        {
+          "sector": "Government & Institutions",
+          "desc": "Infrastructure scrap, school and hospital refurbishments"
+        }
       ]
     },
     "whyUs": {
       "title": "Why Choose Red Dot Metal",
       "subtitle": "We make scrap metal recycling easy, transparent, and profitable",
       "features": [
-        { "title": "Same-Day Service", "desc": "We respond within hours and pick up on the same day." },
-        { "title": "Free Pickup", "desc": "No hidden fees. We collect your scrap metal at no cost." },
-        { "title": "Instant Payment", "desc": "Get paid instantly via PayNow, bank transfer, or cash." },
-        { "title": "Transparent Pricing", "desc": "Real-time market rates with clear weight and price breakdown." },
-        { "title": "Licensed & Certified", "desc": "Fully licensed by NEA. Compliant with all regulations." },
-        { "title": "We Cover All Areas", "desc": "Serving all of Singapore — East, West, North, South, Central." }
+        {
+          "title": "Same-Day Service",
+          "desc": "We respond within hours and pick up on the same day."
+        },
+        {
+          "title": "Free Pickup",
+          "desc": "No hidden fees. We collect your scrap metal at no cost."
+        },
+        {
+          "title": "Instant Payment",
+          "desc": "Get paid instantly via PayNow, bank transfer, or cash."
+        },
+        {
+          "title": "Transparent Pricing",
+          "desc": "Real-time market rates with clear weight and price breakdown."
+        },
+        {
+          "title": "Licensed & Certified",
+          "desc": "Fully licensed by NEA. Compliant with all regulations."
+        },
+        {
+          "title": "We Cover All Areas",
+          "desc": "Serving all of Singapore — East, West, North, South, Central."
+        }
       ]
     },
     "testimonials": {
       "title": "What Our Clients Say",
       "subtitle": "Trusted by hundreds of businesses across Singapore",
       "items": [
-        { "name": "Ahmed Ibrahim", "company": "Ibrahim Construction Pte Ltd", "text": "Red Dot Metal has been our scrap collection partner for 3 years. Same-day service every time, and their pricing is the best in the market.", "rating": 5 },
-        { "name": "Michelle Tan", "company": "Tan Engineering Works", "text": "The instant payment feature is a game changer. We get paid via PayNow right after weighing. No more waiting for cheques.", "rating": 5 },
-        { "name": "David Kumar", "company": "Kumar Ship Recycling", "text": "They handle our marine scrap professionally. Fully documented, NEA-compliant, and always on time. Highly recommended.", "rating": 5 },
-        { "name": "Siti Rahman", "company": "Rahman Manufacturing", "text": "I love how easy it is. Just WhatsApp them a photo of my scrap, they quote me instantly, and come collect the same day.", "rating": 5 }
+        {
+          "name": "Ahmed Ibrahim",
+          "company": "Ibrahim Construction Pte Ltd",
+          "text": "Red Dot Metal has been our scrap collection partner for 3 years. Same-day service every time, and their pricing is the best in the market.",
+          "rating": 5
+        },
+        {
+          "name": "Michelle Tan",
+          "company": "Tan Engineering Works",
+          "text": "The instant payment feature is a game changer. We get paid via PayNow right after weighing. No more waiting for cheques.",
+          "rating": 5
+        },
+        {
+          "name": "David Kumar",
+          "company": "Kumar Ship Recycling",
+          "text": "They handle our marine scrap professionally. Fully documented, NEA-compliant, and always on time. Highly recommended.",
+          "rating": 5
+        },
+        {
+          "name": "Siti Rahman",
+          "company": "Rahman Manufacturing",
+          "text": "I love how easy it is. Just WhatsApp them a photo of my scrap, they quote me instantly, and come collect the same day.",
+          "rating": 5
+        }
       ]
     },
     "serviceArea": {
       "title": "Our Service Area",
       "subtitle": "We cover the entire island of Singapore",
       "areas": [
-        { "name": "Central", "districts": "City Hall, Orchard, Chinatown, Clarke Quay" },
-        { "name": "East", "districts": "Changi, Tampines, Bedok, Pasir Ris" },
-        { "name": "West", "districts": "Jurong, Tuas, Pioneer, Boon Lay" },
-        { "name": "North", "districts": "Woodlands, Sembawang, Yishun, Mandai" },
-        { "name": "North-East", "districts": "Punggol, Sengkang, Hougang, Serangoon" },
-        { "name": "South", "districts": "Bukit Merah, HarbourFront, Sentosa" }
+        {
+          "name": "Central",
+          "districts": "City Hall, Orchard, Chinatown, Clarke Quay"
+        },
+        {
+          "name": "East",
+          "districts": "Changi, Tampines, Bedok, Pasir Ris"
+        },
+        {
+          "name": "West",
+          "districts": "Jurong, Tuas, Pioneer, Boon Lay"
+        },
+        {
+          "name": "North",
+          "districts": "Woodlands, Sembawang, Yishun, Mandai"
+        },
+        {
+          "name": "North-East",
+          "districts": "Punggol, Sengkang, Hougang, Serangoon"
+        },
+        {
+          "name": "South",
+          "districts": "Bukit Merah, HarbourFront, Sentosa"
+        }
       ],
       "cta": "We cover all industrial estates including Jurong Industrial Estate, Tuas, Sungei Kadut, Senoko, and more. Contact us for same-day collection anywhere in Singapore."
     },
@@ -131,9 +259,18 @@
     "mission": "To be Singapore's most trusted scrap metal partner by delivering exceptional service, fair pricing, and sustainable recycling practices.",
     "vision": "To lead the transition toward a circular economy where every piece of metal is recovered, recycled, and reused — reducing waste and conserving resources for future generations.",
     "values": [
-      { "title": "Integrity", "desc": "Honest weighing, transparent pricing, and ethical business practices in every transaction." },
-      { "title": "Reliability", "desc": "Same-day pickups, on-time payments, and consistent service quality you can count on." },
-      { "title": "Sustainability", "desc": "Commitment to environmentally responsible recycling that exceeds regulatory requirements." }
+      {
+        "title": "Integrity",
+        "desc": "Honest weighing, transparent pricing, and ethical business practices in every transaction."
+      },
+      {
+        "title": "Reliability",
+        "desc": "Same-day pickups, on-time payments, and consistent service quality you can count on."
+      },
+      {
+        "title": "Sustainability",
+        "desc": "Commitment to environmentally responsible recycling that exceeds regulatory requirements."
+      }
     ],
     "team": "Our team brings together expertise in metal trading, logistics, and environmental compliance. From our operations crew to our management team, every member is committed to delivering the highest standard of service."
   },
@@ -179,11 +316,26 @@
     "process": {
       "title": "Our Process",
       "steps": [
-        { "title": "Contact Us", "desc": "Reach out via phone, email, WhatsApp, or our online form" },
-        { "title": "Get a Quote", "desc": "Send a photo of your scrap — we'll quote you instantly" },
-        { "title": "Schedule Pickup", "desc": "Choose a convenient time slot for same-day collection" },
-        { "title": "Weigh & Process", "desc": "Your scrap is weighed, graded, and processed on the spot" },
-        { "title": "Get Paid Instantly", "desc": "Receive instant payment via PayNow, bank transfer, or cash" }
+        {
+          "title": "Contact Us",
+          "desc": "Reach out via phone, email, WhatsApp, or our online form"
+        },
+        {
+          "title": "Get a Quote",
+          "desc": "Send a photo of your scrap — we'll quote you instantly"
+        },
+        {
+          "title": "Schedule Pickup",
+          "desc": "Choose a convenient time slot for same-day collection"
+        },
+        {
+          "title": "Weigh & Process",
+          "desc": "Your scrap is weighed, graded, and processed on the spot"
+        },
+        {
+          "title": "Get Paid Instantly",
+          "desc": "Receive instant payment via PayNow, bank transfer, or cash"
+        }
       ]
     },
     "cta": {
@@ -209,9 +361,21 @@
       "title": "How It Works — 3 Simple Steps",
       "subtitle": "Get your scrap collected and get paid the same day",
       "steps": [
-        { "number": 1, "title": "Send Photo & Details", "desc": "Take a photo of your scrap metal and WhatsApp or email it to us. Tell us the approximate weight and your location." },
-        { "number": 2, "title": "Get Instant Quote & Schedule", "desc": "We'll reply within minutes with our best price. Agree on the price and pick a same-day pickup time that works for you." },
-        { "number": 3, "title": "We Collect, Weigh & Pay", "desc": "Our team arrives at your location, loads the scrap, weighs it in front of you, and you get paid instantly via PayNow or cash." }
+        {
+          "number": 1,
+          "title": "Send Photo & Details",
+          "desc": "Take a photo of your scrap metal and WhatsApp or email it to us. Tell us the approximate weight and your location."
+        },
+        {
+          "number": 2,
+          "title": "Get Instant Quote & Schedule",
+          "desc": "We'll reply within minutes with our best price. Agree on the price and pick a same-day pickup time that works for you."
+        },
+        {
+          "number": 3,
+          "title": "We Collect, Weigh & Pay",
+          "desc": "Our team arrives at your location, loads the scrap, weighs it in front of you, and you get paid instantly via PayNow or cash."
+        }
       ]
     },
     "form": {
@@ -241,11 +405,26 @@
       "hours": "Mon–Fri: 8:00 AM – 6:00 PM\nSat: 8:00 AM – 1:00 PM"
     },
     "metalOptions": [
-      { "value": "ferrous", "label": "Ferrous Metals (Steel, Iron)" },
-      { "value": "non-ferrous", "label": "Non-Ferrous Metals (Copper, Aluminium)" },
-      { "value": "mixed", "label": "Mixed Scrap" },
-      { "value": "industrial", "label": "Industrial Waste" },
-      { "value": "other", "label": "Other" }
+      {
+        "value": "ferrous",
+        "label": "Ferrous Metals (Steel, Iron)"
+      },
+      {
+        "value": "non-ferrous",
+        "label": "Non-Ferrous Metals (Copper, Aluminium)"
+      },
+      {
+        "value": "mixed",
+        "label": "Mixed Scrap"
+      },
+      {
+        "value": "industrial",
+        "label": "Industrial Waste"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      }
     ]
   },
   "quote": {
@@ -276,15 +455,42 @@
       "error": "Something went wrong. Please try again."
     },
     "metalOptions": [
-      { "value": "steel", "label": "Steel" },
-      { "value": "iron", "label": "Iron" },
-      { "value": "copper", "label": "Copper" },
-      { "value": "aluminium", "label": "Aluminium" },
-      { "value": "brass", "label": "Brass" },
-      { "value": "stainless", "label": "Stainless Steel" },
-      { "value": "lead", "label": "Lead" },
-      { "value": "mixed", "label": "Mixed Metals" },
-      { "value": "other", "label": "Other" }
+      {
+        "value": "steel",
+        "label": "Steel"
+      },
+      {
+        "value": "iron",
+        "label": "Iron"
+      },
+      {
+        "value": "copper",
+        "label": "Copper"
+      },
+      {
+        "value": "aluminium",
+        "label": "Aluminium"
+      },
+      {
+        "value": "brass",
+        "label": "Brass"
+      },
+      {
+        "value": "stainless",
+        "label": "Stainless Steel"
+      },
+      {
+        "value": "lead",
+        "label": "Lead"
+      },
+      {
+        "value": "mixed",
+        "label": "Mixed Metals"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      }
     ]
   },
   "prices": {
@@ -321,12 +527,30 @@
     },
     "coverage": "We provide scrap metal collection services across the entire island of Singapore. From Tuas in the west to Changi in the east, Woodlands in the north to Sentosa in the south — wherever you are, we'll come to you.",
     "areas": [
-      { "name": "Central", "districts": "City Hall, Orchard, Chinatown, Clarke Quay, Marina Bay, Rochor" },
-      { "name": "East", "districts": "Changi, Tampines, Bedok, Pasir Ris, Simei, Kembangan, Eunos" },
-      { "name": "West", "districts": "Jurong, Tuas, Pioneer, Boon Lay, Clementi, Bukit Batok, Choa Chu Kang" },
-      { "name": "North", "districts": "Woodlands, Sembawang, Yishun, Mandai, Admiralty, Canberra" },
-      { "name": "North-East", "districts": "Punggol, Sengkang, Hougang, Serangoon, Ang Mo Kio, Buangkok" },
-      { "name": "South", "districts": "Bukit Merah, HarbourFront, Sentosa, Telok Blangah, Mount Faber" }
+      {
+        "name": "Central",
+        "districts": "City Hall, Orchard, Chinatown, Clarke Quay, Marina Bay, Rochor"
+      },
+      {
+        "name": "East",
+        "districts": "Changi, Tampines, Bedok, Pasir Ris, Simei, Kembangan, Eunos"
+      },
+      {
+        "name": "West",
+        "districts": "Jurong, Tuas, Pioneer, Boon Lay, Clementi, Bukit Batok, Choa Chu Kang"
+      },
+      {
+        "name": "North",
+        "districts": "Woodlands, Sembawang, Yishun, Mandai, Admiralty, Canberra"
+      },
+      {
+        "name": "North-East",
+        "districts": "Punggol, Sengkang, Hougang, Serangoon, Ang Mo Kio, Buangkok"
+      },
+      {
+        "name": "South",
+        "districts": "Bukit Merah, HarbourFront, Sentosa, Telok Blangah, Mount Faber"
+      }
     ],
     "industrialEstates": "We specialise in servicing all major industrial estates: Jurong Industrial Estate, Tuas, Sungei Kadut, Senoko, Defu, Kaki Bukit, Ubi, MacPherson, Tampines, and more.",
     "cta": "Contact us now for same-day collection anywhere in Singapore."
@@ -403,7 +627,10 @@
     "language": {
       "en": "English",
       "ms": "Bahasa Melayu",
-      "zh": "中文"
+      "zh": "中文",
+      "bn": "বাংলা",
+      "ta": "தமிழ்",
+      "id": "Bahasa Indonesia"
     }
   }
 }

@@ -71,10 +71,10 @@ export default function AdminDashboard() {
           <div className="rounded-xl border border-white/10 bg-[#1e293b] p-6">
             <h2 className="mb-4 text-lg font-bold text-white">Quick Links</h2>
             <div className="space-y-2">
-              <a href="/en/prices" className="block rounded-lg border border-white/10 px-4 py-3 text-sm text-gray-300 transition-colors hover:border-amber-500/50">View Prices Page</a>
-              <a href="/en/testimonials" className="block rounded-lg border border-white/10 px-4 py-3 text-sm text-gray-300 transition-colors hover:border-amber-500/50">View Testimonials Page</a>
-              <a href="/en/service-area" className="block rounded-lg border border-white/10 px-4 py-3 text-sm text-gray-300 transition-colors hover:border-amber-500/50">View Service Area Page</a>
-              <a href="/en/contact" className="block rounded-lg border border-white/10 px-4 py-3 text-sm text-gray-300 transition-colors hover:border-amber-500/50">View Contact Page</a>
+              <a href="/en/prices" className="block rounded-lg border border-white/10 px-4 py-3 text-sm text-gray-300 transition-colors hover:border-orange-500/50">View Prices Page</a>
+              <a href="/en/testimonials" className="block rounded-lg border border-white/10 px-4 py-3 text-sm text-gray-300 transition-colors hover:border-orange-500/50">View Testimonials Page</a>
+              <a href="/en/service-area" className="block rounded-lg border border-white/10 px-4 py-3 text-sm text-gray-300 transition-colors hover:border-orange-500/50">View Service Area Page</a>
+              <a href="/en/contact" className="block rounded-lg border border-white/10 px-4 py-3 text-sm text-gray-300 transition-colors hover:border-orange-500/50">View Contact Page</a>
             </div>
           </div>
         </div>

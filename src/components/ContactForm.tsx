@@ -112,7 +112,7 @@ export default function ContactForm() {
           />
           {errors.message && <p className="text-xs text-red-400">Required</p>}
         </div>
-        <Button type="submit" disabled={loading} className="w-full bg-amber-500 text-[#0f172a] hover:bg-amber-400 font-semibold">
+        <Button type="submit" disabled={loading} className="w-full bg-orange-500 text-[#0f172a] hover:bg-orange-400 font-semibold">
           {loading ? (
             <>
               <Loader2 className="mr-2 h-4 w-4 animate-spin" /> {t("sending")}

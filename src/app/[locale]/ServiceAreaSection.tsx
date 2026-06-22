@@ -26,7 +26,7 @@ export default function ServiceAreaSection() {
               transition={{ delay: i * 0.08 }}
               className="flex items-start gap-3 rounded-xl border border-white/10 bg-[#1e293b] p-5"
             >
-              <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-amber-400" />
+              <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-orange-400" />
               <div>
                 <h3 className="font-semibold text-white">{area.name} Singapore</h3>
                 <p className="mt-1 text-xs text-gray-400">{area.districts}</p>

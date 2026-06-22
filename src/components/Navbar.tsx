@@ -57,10 +57,8 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b border-white/10 bg-[#0f172a]/95 backdrop-blur supports-[backdrop-filter]:bg-[#0f172a]/80">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded bg-amber-500 text-sm font-bold text-[#0f172a]">
-            RM
-          </div>
-          <span className="text-lg font-bold text-white">Red Dot Metal</span>
+          <img src="/logo.jpg" alt="Red Dot Metal" className="h-8 w-auto" />
+          {/* <span className="text-lg font-bold text-white">Red Dot Metal</span> */}
         </Link>
 
         <div className="hidden items-center gap-1 lg:flex">
@@ -70,8 +68,8 @@ export default function Navbar() {
                 <button
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   className={cn(
-                    "flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-amber-400",
-                    isActive(link.href) ? "text-amber-400" : "text-gray-300"
+                    "flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-orange-400",
+                    isActive(link.href) ? "text-orange-400" : "text-gray-300"
                   )}
                 >
                   {t(link.label)}
@@ -84,7 +82,7 @@ export default function Navbar() {
                         key={sub.href}
                         href={sub.href}
                         onClick={closeNav}
-                        className="block rounded-lg px-3 py-2 text-sm text-gray-300 transition-colors hover:bg-white/5 hover:text-amber-400"
+                        className="block rounded-lg px-3 py-2 text-sm text-gray-300 transition-colors hover:bg-white/5 hover:text-orange-400"
                       >
                         {t(sub.label)}
                       </Link>
@@ -97,8 +95,8 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-amber-400",
-                  isActive(link.href) ? "text-amber-400" : "text-gray-300"
+                  "rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-orange-400",
+                  isActive(link.href) ? "text-orange-400" : "text-gray-300"
                 )}
               >
                 {t(link.label)}
@@ -107,7 +105,7 @@ export default function Navbar() {
           )}
           <div className="ml-2 flex items-center gap-2">
             <LanguageSwitcher />
-            <a href="tel:+6567891234" className="inline-flex items-center gap-1.5 rounded-md border border-white/10 px-3 py-1.5 text-sm text-gray-300 transition-colors hover:border-amber-500/50 hover:text-amber-400">
+            <a href="tel:+6567891234" className="inline-flex items-center gap-1.5 rounded-md border border-white/10 px-3 py-1.5 text-sm text-gray-300 transition-colors hover:border-orange-500/50 hover:text-orange-400">
               <Phone className="h-3.5 w-3.5" />
               <span className="hidden xl:inline">Call</span>
             </a>
@@ -115,13 +113,13 @@ export default function Navbar() {
               href="https://wa.me/6567891234"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-md border border-white/10 px-3 py-1.5 text-sm text-gray-300 transition-colors hover:border-green-500/50 hover:text-green-400"
+              className="inline-flex items-center gap-1.5 rounded-md border border-white/10 px-3 py-1.5 text-sm text-gray-300 transition-colors hover:border-red-500/50 hover:text-red-400"
             >
               <MessageCircle className="h-3.5 w-3.5" />
               <span className="hidden xl:inline">WhatsApp</span>
             </a>
             <Link href="/quote">
-              <Button className="bg-amber-500 text-[#0f172a] hover:bg-amber-400 font-semibold">
+              <Button className="bg-orange-500 text-[#0f172a] hover:bg-orange-400 font-semibold">
                 {t("quote")}
               </Button>
             </Link>
@@ -146,8 +144,8 @@ export default function Navbar() {
                   href={link.href}
                   onClick={closeNav}
                   className={cn(
-                    "block rounded px-3 py-2 text-sm font-medium transition-colors hover:bg-white/5 hover:text-amber-400",
-                    isActive(link.href) ? "text-amber-400" : "text-gray-300"
+                    "block rounded px-3 py-2 text-sm font-medium transition-colors hover:bg-white/5 hover:text-orange-400",
+                    isActive(link.href) ? "text-orange-400" : "text-gray-300"
                   )}
                 >
                   {t(link.label)}
@@ -157,7 +155,7 @@ export default function Navbar() {
                     key={sub.href}
                     href={sub.href}
                     onClick={closeNav}
-                    className="block rounded px-6 py-1.5 text-sm text-gray-400 transition-colors hover:text-amber-400"
+                    className="block rounded px-6 py-1.5 text-sm text-gray-400 transition-colors hover:text-orange-400"
                   >
                     {t(sub.label)}
                   </Link>
@@ -167,7 +165,7 @@ export default function Navbar() {
             <div className="flex items-center gap-3 pt-3">
               <a
                 href="tel:+6567891234"
-                className="flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-sm text-gray-300 hover:border-amber-500/50"
+                className="flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-sm text-gray-300 hover:border-orange-500/50"
               >
                 <Phone className="h-4 w-4" /> Call
               </a>
@@ -175,7 +173,7 @@ export default function Navbar() {
                 href="https://wa.me/6567891234"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-sm text-gray-300 hover:border-green-500/50"
+                className="flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-sm text-gray-300 hover:border-red-500/50"
               >
                 <MessageCircle className="h-4 w-4" /> WhatsApp
               </a>
@@ -184,7 +182,7 @@ export default function Navbar() {
               <LanguageSwitcher />
             </div>
             <Link href="/quote" onClick={closeNav} className="block pt-2">
-              <Button className="w-full bg-amber-500 text-[#0f172a] hover:bg-amber-400 font-semibold">
+              <Button className="w-full bg-orange-500 text-[#0f172a] hover:bg-orange-400 font-semibold">
                 {t("quote")}
               </Button>
             </Link>

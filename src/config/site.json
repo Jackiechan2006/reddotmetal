@@ -1,0 +1,35 @@
+{
+  "_comment": "Centralized site configuration. Edit values here — they propagate everywhere.",
+  "brand": {
+    "name": "Red Dot Metal",
+    "logo": "/logo.jpg",
+    "tagline": "Singapore's Trusted Scrap Metal Recycler & Trader"
+  },
+  "contact": {
+    "phone": "+65 6789 1234",
+    "phoneRaw": "+6567891234",
+    "whatsapp": "https://wa.me/6567891234",
+    "whatsappRaw": "6567891234",
+    "email": "hello@reddotmetal.com",
+    "address": "15 Gul Way, Singapore 629198",
+    "addressShort": "15 Gul Way",
+    "hours": {
+      "weekdays": "Mon–Fri: 8:00 AM – 6:00 PM",
+      "saturday": "Sat: 8:00 AM – 1:00 PM",
+      "sunday": "Sun & Public Holidays: Closed"
+    }
+  },
+  "map": {
+    "embedUrl": "https://www.google.com/maps/embed/v1/place?q=15+Gul+Way+Singapore+629198&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
+    "address": "15 Gul Way, Singapore 629198"
+  },
+  "admin": {
+    "email": "admin@reddotmetal.com",
+    "loginPath": "/admin",
+    "dashboardPath": "/admin/dashboard"
+  },
+  "seo": {
+    "defaultTitle": "Red Dot Metal | Singapore's Trusted Scrap Metal Recycler & Trader",
+    "defaultDescription": "Red Dot Metal is a leading B2B scrap metal recycling and trading company in Singapore. Same-day pickup, transparent pricing, licensed & certified."
+  }
+}
